@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Playground
+//  SwiftNetworkDemo
 //
 //  Created by Yi Zhang on 2018/12/28.
 //  Copyright © 2018 Yi Zhang. All rights reserved.
