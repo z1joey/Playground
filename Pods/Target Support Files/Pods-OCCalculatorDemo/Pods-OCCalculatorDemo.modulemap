@@ -1,0 +1,6 @@
+framework module Pods_OCCalculatorDemo {
+  umbrella header "Pods-OCCalculatorDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

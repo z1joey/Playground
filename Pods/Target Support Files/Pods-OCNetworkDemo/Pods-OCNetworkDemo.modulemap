@@ -1,0 +1,6 @@
+framework module Pods_OCNetworkDemo {
+  umbrella header "Pods-OCNetworkDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
