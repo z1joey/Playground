@@ -11,7 +11,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FractionTest : NSObject
--(void) test;
+-(void) addTest;
+-(void) sumTest;
 @end
 
 NS_ASSUME_NONNULL_END
