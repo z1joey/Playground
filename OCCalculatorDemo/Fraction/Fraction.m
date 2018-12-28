@@ -10,6 +10,8 @@
 
 @implementation Fraction
 
+@synthesize numerator, denominator;
+
 -(void)print {
     NSLog(@"%i/%i", numerator, denominator);
 }
@@ -36,6 +38,20 @@
     } else {
         return 0.0;
     }
+}
+
+- (void)setTo:(int)n over:(int)d {
+    numerator = n;
+    denominator = d;
+}
+
+- (Fraction *)add:(Fraction *)f {
+    Fraction *result = [[Fraction alloc] init];
+    int resultNum, resultDenom;
+    resultNum = numerator * f.denominator + denominator * f.numerator;
+    resultDenom = denominator * f.denominator;
+    [result setTo:resultNum over:resultDenom];
+    return result;
 }
 
 @end

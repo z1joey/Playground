@@ -11,10 +11,12 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Fraction : NSObject
-{
-    int numerator;
-    int denominator;
-}
+//{
+//    int numerator;
+//    int denominator;
+//}
+
+@property int numerator, denominator;
 
 -(void) print;
 -(void) setNumerator: (int) n;
@@ -22,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 -(int) numerator;
 -(int) denominator;
 -(double) convertToNum;
+-(void) setTo: (int) n over: (int) d;
+-(Fraction *) add: (Fraction *) f;
 
 @end
 

@@ -11,18 +11,23 @@
 
 @implementation FractionTest
 
--(void) test {
+-(void) addTest {
     Fraction *aFraction = [[Fraction alloc] init];
-    Fraction *bFraction = [[Fraction alloc] init];
-    [aFraction setNumerator:1];
-    [aFraction setDenominator:4];
+    aFraction.numerator = 1;
+    aFraction.denominator = 3;
     [aFraction print];
     NSLog(@" =");
     NSLog(@"%g", [aFraction convertToNum]);
     
+    Fraction *bFraction = [[Fraction alloc] init];
+    [bFraction setTo:1 over:3];
     [bFraction print];
     NSLog(@" =");
     NSLog(@"%g", [bFraction convertToNum]);
+    
+    Fraction *cFraction = [[Fraction alloc] init];
+    cFraction = [aFraction add: bFraction];
+    [cFraction print];
 }
 
 @end

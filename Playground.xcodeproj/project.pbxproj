@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		5F6EBE6EC3946B63E16A96DF /* Pods_OCNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9613D4C53699D649191E03D /* Pods_OCNetworkDemo.framework */; };
 		651BB99221D5D2C2006AFC0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB99121D5D2C2006AFC0E /* main.m */; };
-		651BB99821D5D2DD006AFC0E /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB99721D5D2DD006AFC0E /* Calculator.m */; };
 		651BB99B21D5DD5B006AFC0E /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB99A21D5DD5B006AFC0E /* Fraction.m */; };
 		651BB9A521D60CC5006AFC0E /* FractionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB9A421D60CC5006AFC0E /* FractionTest.m */; };
 		654B256C21D548AE00C95C5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654B256B21D548AE00C95C5F /* AppDelegate.swift */; };
@@ -44,8 +43,6 @@
 		30C4DCC326E8F194E21A7536 /* Pods-SwiftNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		651BB98F21D5D2C2006AFC0E /* OCCalculatorDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCCalculatorDemo; sourceTree = BUILT_PRODUCTS_DIR; };
 		651BB99121D5D2C2006AFC0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		651BB99621D5D2DD006AFC0E /* Calculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
-		651BB99721D5D2DD006AFC0E /* Calculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
 		651BB99921D5DD5B006AFC0E /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		651BB99A21D5DD5B006AFC0E /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		651BB9A321D60CC5006AFC0E /* FractionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionTest.h; sourceTree = "<group>"; };
@@ -117,7 +114,6 @@
 		651BB99021D5D2C2006AFC0E /* OCCalculatorDemo */ = {
 			isa = PBXGroup;
 			children = (
-				651BB9A621D60F0A006AFC0E /* Calculator */,
 				651BB99F21D6098C006AFC0E /* Fraction */,
 				651BB99121D5D2C2006AFC0E /* main.m */,
 			);
@@ -133,15 +129,6 @@
 				651BB9A421D60CC5006AFC0E /* FractionTest.m */,
 			);
 			path = Fraction;
-			sourceTree = "<group>";
-		};
-		651BB9A621D60F0A006AFC0E /* Calculator */ = {
-			isa = PBXGroup;
-			children = (
-				651BB99621D5D2DD006AFC0E /* Calculator.h */,
-				651BB99721D5D2DD006AFC0E /* Calculator.m */,
-			);
-			path = Calculator;
 			sourceTree = "<group>";
 		};
 		654B254621D547C500C95C5F = {
@@ -441,7 +428,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				651BB99221D5D2C2006AFC0E /* main.m in Sources */,
-				651BB99821D5D2DD006AFC0E /* Calculator.m in Sources */,
 				651BB99B21D5DD5B006AFC0E /* Fraction.m in Sources */,
 				651BB9A521D60CC5006AFC0E /* FractionTest.m in Sources */,
 			);
