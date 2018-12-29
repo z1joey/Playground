@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5F6EBE6EC3946B63E16A96DF /* Pods_OCNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9613D4C53699D649191E03D /* Pods_OCNetworkDemo.framework */; };
-		651BB99221D5D2C2006AFC0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB99121D5D2C2006AFC0E /* main.m */; };
-		651BB99B21D5DD5B006AFC0E /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB99A21D5DD5B006AFC0E /* Fraction.m */; };
-		651BB9A521D60CC5006AFC0E /* FractionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 651BB9A421D60CC5006AFC0E /* FractionTest.m */; };
+		6528A82521D752D800BF83E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82421D752D800BF83E5 /* main.m */; };
+		6528A82C21D7536800BF83E5 /* FKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82B21D7536800BF83E5 /* FKParent.m */; };
+		6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82E21D75AE600BF83E5 /* FKSub.m */; };
+		6528A83221D75BB200BF83E5 /* FKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83121D75BB200BF83E5 /* FKTest.m */; };
 		6549784821D66A1100756F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549784721D66A1100756F27 /* AppDelegate.swift */; };
 		6549784D21D66A1100756F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549784B21D66A1100756F27 /* Main.storyboard */; };
 		6549784F21D66A1300756F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6549784E21D66A1300756F27 /* Assets.xcassets */; };
@@ -23,11 +24,10 @@
 		654B25AE21D551D500C95C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AD21D551D500C95C5F /* Assets.xcassets */; };
 		654B25B121D551D500C95C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AF21D551D500C95C5F /* LaunchScreen.storyboard */; };
 		654B25B421D551D500C95C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B25B321D551D500C95C5F /* main.m */; };
-		707AFC4E57AF58999E7544BC /* Pods_OCCalculatorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318B5C41C726F6F309092A5B /* Pods_OCCalculatorDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		651BB98D21D5D2C2006AFC0E /* CopyFiles */ = {
+		6528A82021D752D800BF83E5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -42,12 +42,18 @@
 		05E56D48058563454797E6F6 /* Pods-OCCalculatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		30C4DCC326E8F194E21A7536 /* Pods-SwiftNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		318B5C41C726F6F309092A5B /* Pods_OCCalculatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCCalculatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		651BB98F21D5D2C2006AFC0E /* OCCalculatorDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCCalculatorDemo; sourceTree = BUILT_PRODUCTS_DIR; };
-		651BB99121D5D2C2006AFC0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		651BB99921D5DD5B006AFC0E /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		651BB99A21D5DD5B006AFC0E /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		651BB9A321D60CC5006AFC0E /* FractionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionTest.h; sourceTree = "<group>"; };
 		651BB9A421D60CC5006AFC0E /* FractionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FractionTest.m; sourceTree = "<group>"; };
+		6528A82221D752D800BF83E5 /* Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6528A82421D752D800BF83E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6528A82A21D7536800BF83E5 /* FKParent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKParent.h; sourceTree = "<group>"; };
+		6528A82B21D7536800BF83E5 /* FKParent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKParent.m; sourceTree = "<group>"; };
+		6528A82D21D75AE600BF83E5 /* FKSub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKSub.h; sourceTree = "<group>"; };
+		6528A82E21D75AE600BF83E5 /* FKSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKSub.m; sourceTree = "<group>"; };
+		6528A83021D75BB200BF83E5 /* FKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKTest.h; sourceTree = "<group>"; };
+		6528A83121D75BB200BF83E5 /* FKTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKTest.m; sourceTree = "<group>"; };
 		6549784521D66A1100756F27 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549784721D66A1100756F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6549784C21D66A1100756F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,11 +81,10 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		651BB98C21D5D2C2006AFC0E /* Frameworks */ = {
+		6528A81F21D752D800BF83E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707AFC4E57AF58999E7544BC /* Pods_OCCalculatorDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,15 +119,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		651BB99021D5D2C2006AFC0E /* OCCalculatorDemo */ = {
-			isa = PBXGroup;
-			children = (
-				651BB99F21D6098C006AFC0E /* Fraction */,
-				651BB99121D5D2C2006AFC0E /* main.m */,
-			);
-			path = OCCalculatorDemo;
-			sourceTree = "<group>";
-		};
 		651BB99F21D6098C006AFC0E /* Fraction */ = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +128,29 @@
 				651BB9A421D60CC5006AFC0E /* FractionTest.m */,
 			);
 			path = Fraction;
+			sourceTree = "<group>";
+		};
+		6528A82321D752D800BF83E5 /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				6528A82921D7534F00BF83E5 /* FKPerson */,
+				651BB99F21D6098C006AFC0E /* Fraction */,
+				6528A82421D752D800BF83E5 /* main.m */,
+			);
+			path = "Objective-C";
+			sourceTree = "<group>";
+		};
+		6528A82921D7534F00BF83E5 /* FKPerson */ = {
+			isa = PBXGroup;
+			children = (
+				6528A82A21D7536800BF83E5 /* FKParent.h */,
+				6528A82B21D7536800BF83E5 /* FKParent.m */,
+				6528A82D21D75AE600BF83E5 /* FKSub.h */,
+				6528A82E21D75AE600BF83E5 /* FKSub.m */,
+				6528A83021D75BB200BF83E5 /* FKTest.h */,
+				6528A83121D75BB200BF83E5 /* FKTest.m */,
+			);
+			path = FKPerson;
 			sourceTree = "<group>";
 		};
 		6549784621D66A1100756F27 /* EmojiArt */ = {
@@ -160,8 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				6549784621D66A1100756F27 /* EmojiArt */,
+				6528A82321D752D800BF83E5 /* Objective-C */,
 				654B25A321D551D400C95C5F /* OCNetworkDemo */,
-				651BB99021D5D2C2006AFC0E /* OCCalculatorDemo */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
 				75FEF4C077DA058FA259D2FC /* Frameworks */,
@@ -172,8 +191,8 @@
 			isa = PBXGroup;
 			children = (
 				654B25A221D551D400C95C5F /* OCNetworkDemo.app */,
-				651BB98F21D5D2C2006AFC0E /* OCCalculatorDemo */,
 				6549784521D66A1100756F27 /* EmojiArt.app */,
+				6528A82221D752D800BF83E5 /* Objective-C */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,22 +226,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		651BB98E21D5D2C2006AFC0E /* OCCalculatorDemo */ = {
+		6528A82121D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 651BB99521D5D2C2006AFC0E /* Build configuration list for PBXNativeTarget "OCCalculatorDemo" */;
+			buildConfigurationList = 6528A82821D752D800BF83E5 /* Build configuration list for PBXNativeTarget "Objective-C" */;
 			buildPhases = (
-				FDAE3D7FB97A138BA06A8B2C /* [CP] Check Pods Manifest.lock */,
-				651BB98B21D5D2C2006AFC0E /* Sources */,
-				651BB98C21D5D2C2006AFC0E /* Frameworks */,
-				651BB98D21D5D2C2006AFC0E /* CopyFiles */,
+				6528A81E21D752D800BF83E5 /* Sources */,
+				6528A81F21D752D800BF83E5 /* Frameworks */,
+				6528A82021D752D800BF83E5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OCCalculatorDemo;
-			productName = OCCalculatorDemo;
-			productReference = 651BB98F21D5D2C2006AFC0E /* OCCalculatorDemo */;
+			name = "Objective-C";
+			productName = "Objective-C";
+			productReference = 6528A82221D752D800BF83E5 /* Objective-C */;
 			productType = "com.apple.product-type.tool";
 		};
 		6549784421D66A1100756F27 /* EmojiArt */ = {
@@ -271,7 +289,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
-					651BB98E21D5D2C2006AFC0E = {
+					6528A82121D752D800BF83E5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 					6549784421D66A1100756F27 = {
@@ -296,8 +314,8 @@
 			projectRoot = "";
 			targets = (
 				654B25A121D551D400C95C5F /* OCNetworkDemo */,
-				651BB98E21D5D2C2006AFC0E /* OCCalculatorDemo */,
 				6549784421D66A1100756F27 /* EmojiArt */,
+				6528A82121D752D800BF83E5 /* Objective-C */,
 			);
 		};
 /* End PBXProject section */
@@ -370,38 +388,17 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OCNetworkDemo/Pods-OCNetworkDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FDAE3D7FB97A138BA06A8B2C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-OCCalculatorDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		651BB98B21D5D2C2006AFC0E /* Sources */ = {
+		6528A81E21D752D800BF83E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651BB99221D5D2C2006AFC0E /* main.m in Sources */,
-				651BB99B21D5DD5B006AFC0E /* Fraction.m in Sources */,
-				651BB9A521D60CC5006AFC0E /* FractionTest.m in Sources */,
+				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
+				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
+				6528A82C21D7536800BF83E5 /* FKParent.m in Sources */,
+				6528A82521D752D800BF83E5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,9 +460,8 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		651BB99321D5D2C2006AFC0E /* Debug */ = {
+		6528A82621D752D800BF83E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84213E655941E1C15798AE15 /* Pods-OCCalculatorDemo.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -476,9 +472,8 @@
 			};
 			name = Debug;
 		};
-		651BB99421D5D2C2006AFC0E /* Release */ = {
+		6528A82721D752D800BF83E5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05E56D48058563454797E6F6 /* Pods-OCCalculatorDemo.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
@@ -682,11 +677,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		651BB99521D5D2C2006AFC0E /* Build configuration list for PBXNativeTarget "OCCalculatorDemo" */ = {
+		6528A82821D752D800BF83E5 /* Build configuration list for PBXNativeTarget "Objective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				651BB99321D5D2C2006AFC0E /* Debug */,
-				651BB99421D5D2C2006AFC0E /* Release */,
+				6528A82621D752D800BF83E5 /* Debug */,
+				6528A82721D752D800BF83E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

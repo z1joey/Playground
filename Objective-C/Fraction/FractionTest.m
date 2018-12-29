@@ -11,7 +11,7 @@
 
 @implementation FractionTest
 
--(void) addTest {
++(void) addTest {
     Fraction *aFraction = [[Fraction alloc] init];
     aFraction.numerator = 1;
     aFraction.denominator = 3;
@@ -30,9 +30,9 @@
     [cFraction print];
 }
 
-- (void)sumTest {
++(void)sumTest {
     Fraction *aFraction = [[Fraction alloc] init];
-    //这里的sum2用来获取sum，防止sum内存泄露
+    // 这里的sum2用来获取sum，防止sum内存泄露
     Fraction *sum = [[Fraction alloc] init], *sum2;
     int i, n, pow2;
     [sum setTo:0 over:1];
@@ -42,8 +42,8 @@
     for (i = 1; i <= n; ++i) {
         [aFraction setTo:1 over:2];
         sum2 = [sum add: aFraction];
-        //release 在ARC中不可用
-        //[sum release];
+        // release 在ARC中不可用
+        // [sum release];
         sum = sum2;
         pow2 *= 2;
     }
