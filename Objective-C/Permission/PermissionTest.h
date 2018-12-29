@@ -1,5 +1,5 @@
 //
-//  FKTest.h
+//  PermissionTest.h
 //  Objective-C
 //
 //  Created by Yi Zhang on 29/12/18.
@@ -10,9 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FKTest : NSObject
-+(void) fkTest;
--(void) print;
+@interface PermissionTest : NSObject
++(void) permissionTest;
 @end
 
 NS_ASSUME_NONNULL_END

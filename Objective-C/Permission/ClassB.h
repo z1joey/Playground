@@ -1,5 +1,5 @@
 //
-//  FKTest.h
+//  ClassB.h
 //  Objective-C
 //
 //  Created by Yi Zhang on 29/12/18.
@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ClassA.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FKTest : NSObject
-+(void) fkTest;
--(void) print;
+@interface ClassB : ClassA
+-(void)print;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -10,7 +10,7 @@
 
 @implementation FKParent
 
--(id) init
+- (id) init
 {
     if(self = [super init]) {
         self->_a = 5;

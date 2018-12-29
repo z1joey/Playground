@@ -12,6 +12,9 @@
 		6528A82C21D7536800BF83E5 /* FKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82B21D7536800BF83E5 /* FKParent.m */; };
 		6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82E21D75AE600BF83E5 /* FKSub.m */; };
 		6528A83221D75BB200BF83E5 /* FKTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83121D75BB200BF83E5 /* FKTest.m */; };
+		6528A83621D7638900BF83E5 /* ClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83521D7638900BF83E5 /* ClassA.m */; };
+		6528A83921D763F600BF83E5 /* ClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83821D763F600BF83E5 /* ClassB.m */; };
+		6528A83C21D7645F00BF83E5 /* PermissionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83B21D7645F00BF83E5 /* PermissionTest.m */; };
 		6549784821D66A1100756F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549784721D66A1100756F27 /* AppDelegate.swift */; };
 		6549784D21D66A1100756F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549784B21D66A1100756F27 /* Main.storyboard */; };
 		6549784F21D66A1300756F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6549784E21D66A1300756F27 /* Assets.xcassets */; };
@@ -54,6 +57,12 @@
 		6528A82E21D75AE600BF83E5 /* FKSub.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKSub.m; sourceTree = "<group>"; };
 		6528A83021D75BB200BF83E5 /* FKTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKTest.h; sourceTree = "<group>"; };
 		6528A83121D75BB200BF83E5 /* FKTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKTest.m; sourceTree = "<group>"; };
+		6528A83421D7638900BF83E5 /* ClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassA.h; sourceTree = "<group>"; };
+		6528A83521D7638900BF83E5 /* ClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassA.m; sourceTree = "<group>"; };
+		6528A83721D763F600BF83E5 /* ClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassB.h; sourceTree = "<group>"; };
+		6528A83821D763F600BF83E5 /* ClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassB.m; sourceTree = "<group>"; };
+		6528A83A21D7645F00BF83E5 /* PermissionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PermissionTest.h; sourceTree = "<group>"; };
+		6528A83B21D7645F00BF83E5 /* PermissionTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PermissionTest.m; sourceTree = "<group>"; };
 		6549784521D66A1100756F27 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549784721D66A1100756F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6549784C21D66A1100756F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -133,6 +142,7 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				6528A83321D7635800BF83E5 /* Permission */,
 				6528A82921D7534F00BF83E5 /* FKPerson */,
 				651BB99F21D6098C006AFC0E /* Fraction */,
 				6528A82421D752D800BF83E5 /* main.m */,
@@ -151,6 +161,19 @@
 				6528A83121D75BB200BF83E5 /* FKTest.m */,
 			);
 			path = FKPerson;
+			sourceTree = "<group>";
+		};
+		6528A83321D7635800BF83E5 /* Permission */ = {
+			isa = PBXGroup;
+			children = (
+				6528A83421D7638900BF83E5 /* ClassA.h */,
+				6528A83521D7638900BF83E5 /* ClassA.m */,
+				6528A83721D763F600BF83E5 /* ClassB.h */,
+				6528A83821D763F600BF83E5 /* ClassB.m */,
+				6528A83A21D7645F00BF83E5 /* PermissionTest.h */,
+				6528A83B21D7645F00BF83E5 /* PermissionTest.m */,
+			);
+			path = Permission;
 			sourceTree = "<group>";
 		};
 		6549784621D66A1100756F27 /* EmojiArt */ = {
@@ -396,9 +419,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
+				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
+				6528A83921D763F600BF83E5 /* ClassB.m in Sources */,
 				6528A82C21D7536800BF83E5 /* FKParent.m in Sources */,
 				6528A82521D752D800BF83E5 /* main.m in Sources */,
+				6528A83C21D7645F00BF83E5 /* PermissionTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

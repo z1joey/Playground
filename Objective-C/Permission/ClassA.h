@@ -1,5 +1,5 @@
 //
-//  FKTest.h
+//  ClassA.h
 //  Objective-C
 //
 //  Created by Yi Zhang on 29/12/18.
@@ -10,9 +10,16 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FKTest : NSObject
-+(void) fkTest;
--(void) print;
+@interface ClassA : NSObject
+{
+    @public
+        int x;
+    @protected
+        float y;
+    @private
+        double z;
+}
+
 @end
 
 NS_ASSUME_NONNULL_END

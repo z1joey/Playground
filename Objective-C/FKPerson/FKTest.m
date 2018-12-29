@@ -10,8 +10,11 @@
 #import "FKSub.h"
 
 @implementation FKTest
-+(void)testFK {
++ (void)fkTest {
     FKSub *sub = [[FKSub alloc] init];
     [sub accessOwner];
+}
+- (void)print  {
+    NSLog(@"测试");
 }
 @end

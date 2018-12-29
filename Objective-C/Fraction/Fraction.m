@@ -12,27 +12,27 @@
 
 @synthesize numerator, denominator;
 
--(void)print {
+- (void)print {
     NSLog(@"%i/%i", numerator, denominator);
 }
 
--(void)setNumerator:(int)n {
+- (void)setNumerator:(int)n {
     numerator = n;
 }
 
--(void)setDenominator:(int)n {
+- (void)setDenominator:(int)n {
     denominator = n;
 }
 
--(int)numerator {
+- (int)numerator {
     return numerator;
 }
 
--(int)denominator {
+- (int)denominator {
     return denominator;
 }
 
--(double)convertToNum {
+- (double)convertToNum {
     if (denominator != 0) {
         return (double) numerator / denominator;
     } else {
