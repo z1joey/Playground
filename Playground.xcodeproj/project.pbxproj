@@ -17,6 +17,10 @@
 		6528A83C21D7645F00BF83E5 /* PermissionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83B21D7645F00BF83E5 /* PermissionTest.m */; };
 		6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A83F21D76A0900BF83E5 /* NSStringUtilities.m */; };
 		6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84221D76B1700BF83E5 /* NSStringTest.m */; };
+		6528A84721D770BB00BF83E5 /* FKBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84621D770BB00BF83E5 /* FKBase.m */; };
+		6528A84A21D7713800BF83E5 /* FKSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84921D7713800BF83E5 /* FKSubclass.m */; };
+		6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84C21D771EF00BF83E5 /* FKPTest.m */; };
+		6528A85421D778A700BF83E5 /* CheckTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A85321D778A700BF83E5 /* CheckTest.m */; };
 		6549784821D66A1100756F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6549784721D66A1100756F27 /* AppDelegate.swift */; };
 		6549784D21D66A1100756F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6549784B21D66A1100756F27 /* Main.storyboard */; };
 		6549784F21D66A1300756F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6549784E21D66A1300756F27 /* Assets.xcassets */; };
@@ -69,6 +73,14 @@
 		6528A83F21D76A0900BF83E5 /* NSStringUtilities.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringUtilities.m; sourceTree = "<group>"; };
 		6528A84121D76B1700BF83E5 /* NSStringTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSStringTest.h; sourceTree = "<group>"; };
 		6528A84221D76B1700BF83E5 /* NSStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTest.m; sourceTree = "<group>"; };
+		6528A84521D770BB00BF83E5 /* FKBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKBase.h; sourceTree = "<group>"; };
+		6528A84621D770BB00BF83E5 /* FKBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKBase.m; sourceTree = "<group>"; };
+		6528A84821D7713800BF83E5 /* FKSubclass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKSubclass.h; sourceTree = "<group>"; };
+		6528A84921D7713800BF83E5 /* FKSubclass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKSubclass.m; sourceTree = "<group>"; };
+		6528A84B21D771EF00BF83E5 /* FKPTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKPTest.h; sourceTree = "<group>"; };
+		6528A84C21D771EF00BF83E5 /* FKPTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPTest.m; sourceTree = "<group>"; };
+		6528A85221D778A600BF83E5 /* CheckTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckTest.h; sourceTree = "<group>"; };
+		6528A85321D778A700BF83E5 /* CheckTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTest.m; sourceTree = "<group>"; };
 		6549784521D66A1100756F27 /* EmojiArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmojiArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6549784721D66A1100756F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6549784C21D66A1100756F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +160,8 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				6528A85121D7788500BF83E5 /* 判断 */,
+				6528A84421D770A400BF83E5 /* 多态 */,
 				6528A83D21D769E000BF83E5 /* 类别 */,
 				6528A83321D7635800BF83E5 /* 权限 */,
 				6528A82921D7534F00BF83E5 /* 继承 */,
@@ -192,6 +206,28 @@
 				6528A84221D76B1700BF83E5 /* NSStringTest.m */,
 			);
 			path = "类别";
+			sourceTree = "<group>";
+		};
+		6528A84421D770A400BF83E5 /* 多态 */ = {
+			isa = PBXGroup;
+			children = (
+				6528A84521D770BB00BF83E5 /* FKBase.h */,
+				6528A84621D770BB00BF83E5 /* FKBase.m */,
+				6528A84821D7713800BF83E5 /* FKSubclass.h */,
+				6528A84921D7713800BF83E5 /* FKSubclass.m */,
+				6528A84B21D771EF00BF83E5 /* FKPTest.h */,
+				6528A84C21D771EF00BF83E5 /* FKPTest.m */,
+			);
+			path = "多态";
+			sourceTree = "<group>";
+		};
+		6528A85121D7788500BF83E5 /* 判断 */ = {
+			isa = PBXGroup;
+			children = (
+				6528A85221D778A600BF83E5 /* CheckTest.h */,
+				6528A85321D778A700BF83E5 /* CheckTest.m */,
+			);
+			path = "判断";
 			sourceTree = "<group>";
 		};
 		6549784621D66A1100756F27 /* EmojiArt */ = {
@@ -441,10 +477,14 @@
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
+				6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */,
 				6528A83921D763F600BF83E5 /* ClassB.m in Sources */,
 				6528A82C21D7536800BF83E5 /* FKParent.m in Sources */,
 				6528A82521D752D800BF83E5 /* main.m in Sources */,
+				6528A85421D778A700BF83E5 /* CheckTest.m in Sources */,
+				6528A84A21D7713800BF83E5 /* FKSubclass.m in Sources */,
 				6528A83C21D7645F00BF83E5 /* PermissionTest.m in Sources */,
+				6528A84721D770BB00BF83E5 /* FKBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

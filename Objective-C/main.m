@@ -11,20 +11,18 @@
 #import "继承/FKTest.h"
 #import "权限/PermissionTest.h"
 #import "类别/NSStringTest.h"
+#import "多态/FKPTest.h"
+#import "判断/CheckTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         //[FractionTest addTest];
         //[FractionTest sumTest];
         //[FKTest fkTest];
-        
-        /*id idTest;
-        FKTest *regularTest = [[FKTest alloc] init];
-        idTest = regularTest;
-        [idTest print];*/
-        
         //[PermissionTest permissionTest];
-        [NSStringTest testURL];
+        //[NSStringTest testURL];
+        //[FKPTest test];
+        [CheckTest test];
     }
     return 0;
 }
