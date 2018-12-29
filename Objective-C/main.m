@@ -7,9 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Fraction/FractionTest.h"
-#import "FKPerson/FKTest.h"
-#import "Permission/PermissionTest.h"
+#import "方法/FractionTest.h"
+#import "继承/FKTest.h"
+#import "权限/PermissionTest.h"
+#import "类别/NSStringTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -22,7 +23,8 @@ int main(int argc, const char * argv[]) {
         idTest = regularTest;
         [idTest print];*/
         
-        [PermissionTest permissionTest];
+        //[PermissionTest permissionTest];
+        [NSStringTest testURL];
     }
     return 0;
 }
