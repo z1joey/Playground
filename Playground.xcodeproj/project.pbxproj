@@ -27,6 +27,8 @@
 		654B25AE21D551D500C95C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AD21D551D500C95C5F /* Assets.xcassets */; };
 		654B25B121D551D500C95C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AF21D551D500C95C5F /* LaunchScreen.storyboard */; };
 		654B25B421D551D500C95C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B25B321D551D500C95C5F /* main.m */; };
+		65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCA21DCFE4700D5A3D5 /* FKApple.m */; };
+		65E94FCE21DCFEAA00D5A3D5 /* FKEatableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +87,11 @@
 		654B25B021D551D500C95C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654B25B221D551D500C95C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654B25B321D551D500C95C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65E94FC321DCFBA200D5A3D5 /* FKEatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKEatable.h; sourceTree = "<group>"; };
+		65E94FC921DCFE4700D5A3D5 /* FKApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKApple.h; sourceTree = "<group>"; };
+		65E94FCA21DCFE4700D5A3D5 /* FKApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKApple.m; sourceTree = "<group>"; };
+		65E94FCC21DCFEAA00D5A3D5 /* FKEatableTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKEatableTest.h; sourceTree = "<group>"; };
+		65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKEatableTest.m; sourceTree = "<group>"; };
 		84213E655941E1C15798AE15 /* Pods-OCCalculatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C5DF2D9756C113D71A65DB /* Pods_SwiftNetworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D216188680F9CC3B534535 /* Pods-SwiftNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +146,7 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
 				6528A85121D7788500BF83E5 /* 判断 */,
 				6528A84421D770A400BF83E5 /* 多态 */,
 				6528A83D21D769E000BF83E5 /* 类别 */,
@@ -243,6 +251,18 @@
 				654B25B321D551D500C95C5F /* main.m */,
 			);
 			path = OCNetworkDemo;
+			sourceTree = "<group>";
+		};
+		65E94FBF21DCFAE100D5A3D5 /* 异常 */ = {
+			isa = PBXGroup;
+			children = (
+				65E94FC321DCFBA200D5A3D5 /* FKEatable.h */,
+				65E94FC921DCFE4700D5A3D5 /* FKApple.h */,
+				65E94FCA21DCFE4700D5A3D5 /* FKApple.m */,
+				65E94FCC21DCFEAA00D5A3D5 /* FKEatableTest.h */,
+				65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */,
+			);
+			path = "异常";
 			sourceTree = "<group>";
 		};
 		75FEF4C077DA058FA259D2FC /* Frameworks */ = {
@@ -400,9 +420,11 @@
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
+				65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
 				6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */,
 				6528A83921D763F600BF83E5 /* ClassB.m in Sources */,
+				65E94FCE21DCFEAA00D5A3D5 /* FKEatableTest.m in Sources */,
 				6528A82C21D7536800BF83E5 /* FKParent.m in Sources */,
 				6528A82521D752D800BF83E5 /* main.m in Sources */,
 				6528A85421D778A700BF83E5 /* CheckTest.m in Sources */,

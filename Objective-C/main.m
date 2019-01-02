@@ -13,6 +13,7 @@
 #import "类别/NSStringTest.h"
 #import "多态/FKPTest.h"
 #import "判断/CheckTest.h"
+#import "异常/FKEatableTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -22,7 +23,8 @@ int main(int argc, const char * argv[]) {
         //[PermissionTest permissionTest];
         //[NSStringTest testURL];
         //[FKPTest test];
-        [CheckTest test];
+        //[CheckTest test];
+        [FKEatableTest test];
     }
     return 0;
 }
