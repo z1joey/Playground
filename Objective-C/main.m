@@ -11,6 +11,7 @@
 #import "继承/FKTest.h"
 #import "权限/PermissionTest.h"
 #import "类别/NSStringTest.h"
+#import "类别/NSNumberTest.h"
 #import "多态/FKPTest.h"
 #import "判断/CheckTest.h"
 #import "异常/FKEatableTest.h"
@@ -26,7 +27,8 @@ int main(int argc, const char * argv[]) {
         //[FKPTest test];
         //[CheckTest test];
         //[FKEatableTest test];
-        [FKThrowTest test];
+        //[FKThrowTest test];
+        [NSNumberTest test];
     }
     return 0;
 }

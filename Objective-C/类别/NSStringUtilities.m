@@ -17,3 +17,10 @@
     }
 }
 @end
+
+//@implementation NSString (NumberConvenience)
+//- (NSNumber *)lengthAsNumber {
+//    unsigned int length = [self length];
+//    return [NSNumber numberWithUnsignedInteger:length];
+//}
+//@end

@@ -14,4 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 -(BOOL) isURL;
 @end
 
+//@interface NSString (NumberConvenience)
+//// 无法添加新的实例变量
+//// 新方法与原始方法冲突的话，新方法优先级更高
+//-(NSNumber *) lengthAsNumber;
+//@end
+
 NS_ASSUME_NONNULL_END

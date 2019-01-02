@@ -32,6 +32,8 @@
 		65E94FD121DD019000D5A3D5 /* FKException.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD021DD019000D5A3D5 /* FKException.m */; };
 		65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD321DD01C300D5A3D5 /* FKDog.m */; };
 		65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD621DD02FD00D5A3D5 /* FKThrowTest.m */; };
+		65E94FDB21DD08BA00D5A3D5 /* NSNumber+fk.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FDA21DD08BA00D5A3D5 /* NSNumber+fk.m */; };
+		65E94FDE21DD0A4E00D5A3D5 /* NSNumberTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FDD21DD0A4E00D5A3D5 /* NSNumberTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,6 +103,10 @@
 		65E94FD321DD01C300D5A3D5 /* FKDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKDog.m; sourceTree = "<group>"; };
 		65E94FD521DD02FD00D5A3D5 /* FKThrowTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKThrowTest.h; sourceTree = "<group>"; };
 		65E94FD621DD02FD00D5A3D5 /* FKThrowTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKThrowTest.m; sourceTree = "<group>"; };
+		65E94FD921DD08BA00D5A3D5 /* NSNumber+fk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+fk.h"; sourceTree = "<group>"; };
+		65E94FDA21DD08BA00D5A3D5 /* NSNumber+fk.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+fk.m"; sourceTree = "<group>"; };
+		65E94FDC21DD0A4E00D5A3D5 /* NSNumberTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNumberTest.h; sourceTree = "<group>"; };
+		65E94FDD21DD0A4E00D5A3D5 /* NSNumberTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNumberTest.m; sourceTree = "<group>"; };
 		84213E655941E1C15798AE15 /* Pods-OCCalculatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C5DF2D9756C113D71A65DB /* Pods_SwiftNetworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D216188680F9CC3B534535 /* Pods-SwiftNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +206,10 @@
 				6528A83F21D76A0900BF83E5 /* NSStringUtilities.m */,
 				6528A84121D76B1700BF83E5 /* NSStringTest.h */,
 				6528A84221D76B1700BF83E5 /* NSStringTest.m */,
+				65E94FD921DD08BA00D5A3D5 /* NSNumber+fk.h */,
+				65E94FDA21DD08BA00D5A3D5 /* NSNumber+fk.m */,
+				65E94FDC21DD0A4E00D5A3D5 /* NSNumberTest.h */,
+				65E94FDD21DD0A4E00D5A3D5 /* NSNumberTest.m */,
 			);
 			path = "类别";
 			sourceTree = "<group>";
@@ -434,6 +444,7 @@
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
 				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
+				65E94FDE21DD0A4E00D5A3D5 /* NSNumberTest.m in Sources */,
 				65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */,
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
@@ -447,6 +458,7 @@
 				6528A82521D752D800BF83E5 /* main.m in Sources */,
 				6528A85421D778A700BF83E5 /* CheckTest.m in Sources */,
 				6528A84A21D7713800BF83E5 /* FKSubclass.m in Sources */,
+				65E94FDB21DD08BA00D5A3D5 /* NSNumber+fk.m in Sources */,
 				6528A83C21D7645F00BF83E5 /* PermissionTest.m in Sources */,
 				6528A84721D770BB00BF83E5 /* FKBase.m in Sources */,
 			);
