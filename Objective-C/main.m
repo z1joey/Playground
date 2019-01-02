@@ -14,6 +14,7 @@
 #import "多态/FKPTest.h"
 #import "判断/CheckTest.h"
 #import "异常/FKEatableTest.h"
+#import "异常/FKThrowTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -24,7 +25,8 @@ int main(int argc, const char * argv[]) {
         //[NSStringTest testURL];
         //[FKPTest test];
         //[CheckTest test];
-        [FKEatableTest test];
+        //[FKEatableTest test];
+        [FKThrowTest test];
     }
     return 0;
 }

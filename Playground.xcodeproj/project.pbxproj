@@ -29,6 +29,9 @@
 		654B25B421D551D500C95C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B25B321D551D500C95C5F /* main.m */; };
 		65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCA21DCFE4700D5A3D5 /* FKApple.m */; };
 		65E94FCE21DCFEAA00D5A3D5 /* FKEatableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */; };
+		65E94FD121DD019000D5A3D5 /* FKException.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD021DD019000D5A3D5 /* FKException.m */; };
+		65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD321DD01C300D5A3D5 /* FKDog.m */; };
+		65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD621DD02FD00D5A3D5 /* FKThrowTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -92,6 +95,12 @@
 		65E94FCA21DCFE4700D5A3D5 /* FKApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKApple.m; sourceTree = "<group>"; };
 		65E94FCC21DCFEAA00D5A3D5 /* FKEatableTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKEatableTest.h; sourceTree = "<group>"; };
 		65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKEatableTest.m; sourceTree = "<group>"; };
+		65E94FCF21DD019000D5A3D5 /* FKException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKException.h; sourceTree = "<group>"; };
+		65E94FD021DD019000D5A3D5 /* FKException.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKException.m; sourceTree = "<group>"; };
+		65E94FD221DD01C300D5A3D5 /* FKDog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKDog.h; sourceTree = "<group>"; };
+		65E94FD321DD01C300D5A3D5 /* FKDog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKDog.m; sourceTree = "<group>"; };
+		65E94FD521DD02FD00D5A3D5 /* FKThrowTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKThrowTest.h; sourceTree = "<group>"; };
+		65E94FD621DD02FD00D5A3D5 /* FKThrowTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKThrowTest.m; sourceTree = "<group>"; };
 		84213E655941E1C15798AE15 /* Pods-OCCalculatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A1C5DF2D9756C113D71A65DB /* Pods_SwiftNetworkDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftNetworkDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4D216188680F9CC3B534535 /* Pods-SwiftNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -261,6 +270,12 @@
 				65E94FCA21DCFE4700D5A3D5 /* FKApple.m */,
 				65E94FCC21DCFEAA00D5A3D5 /* FKEatableTest.h */,
 				65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */,
+				65E94FCF21DD019000D5A3D5 /* FKException.h */,
+				65E94FD021DD019000D5A3D5 /* FKException.m */,
+				65E94FD221DD01C300D5A3D5 /* FKDog.h */,
+				65E94FD321DD01C300D5A3D5 /* FKDog.m */,
+				65E94FD521DD02FD00D5A3D5 /* FKThrowTest.h */,
+				65E94FD621DD02FD00D5A3D5 /* FKThrowTest.m */,
 			);
 			path = "异常";
 			sourceTree = "<group>";
@@ -418,12 +433,15 @@
 			files = (
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
+				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
+				65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */,
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
 				65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
 				6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */,
 				6528A83921D763F600BF83E5 /* ClassB.m in Sources */,
+				65E94FD121DD019000D5A3D5 /* FKException.m in Sources */,
 				65E94FCE21DCFEAA00D5A3D5 /* FKEatableTest.m in Sources */,
 				6528A82C21D7536800BF83E5 /* FKParent.m in Sources */,
 				6528A82521D752D800BF83E5 /* main.m in Sources */,
