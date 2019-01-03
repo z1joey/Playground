@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5F6EBE6EC3946B63E16A96DF /* Pods_OCNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9613D4C53699D649191E03D /* Pods_OCNetworkDemo.framework */; };
+		65148E6521DD9F0100F5766D /* FKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6421DD9F0100F5766D /* FKItem.m */; };
+		65148E6821DDA08200F5766D /* FKItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6721DDA08200F5766D /* FKItemTest.m */; };
 		6528A82521D752D800BF83E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82421D752D800BF83E5 /* main.m */; };
 		6528A82C21D7536800BF83E5 /* FKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82B21D7536800BF83E5 /* FKParent.m */; };
 		6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82E21D75AE600BF83E5 /* FKSub.m */; };
@@ -52,6 +54,10 @@
 		05E56D48058563454797E6F6 /* Pods-OCCalculatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		30C4DCC326E8F194E21A7536 /* Pods-SwiftNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		318B5C41C726F6F309092A5B /* Pods_OCCalculatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCCalculatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65148E6321DD9F0100F5766D /* FKItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItem.h; sourceTree = "<group>"; };
+		65148E6421DD9F0100F5766D /* FKItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKItem.m; sourceTree = "<group>"; };
+		65148E6621DDA08200F5766D /* FKItemTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItemTest.h; sourceTree = "<group>"; };
+		65148E6721DDA08200F5766D /* FKItemTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKItemTest.m; sourceTree = "<group>"; };
 		651BB99921D5DD5B006AFC0E /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		651BB99A21D5DD5B006AFC0E /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		651BB9A321D60CC5006AFC0E /* FractionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionTest.h; sourceTree = "<group>"; };
@@ -147,6 +153,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		65148E6921DDA32D00F5766D /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "扩展";
+			sourceTree = "<group>";
+		};
 		651BB99F21D6098C006AFC0E /* 方法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +174,7 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				65148E6921DDA32D00F5766D /* 扩展 */,
 				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
 				6528A85121D7788500BF83E5 /* 判断 */,
 				6528A84421D770A400BF83E5 /* 多态 */,
@@ -210,6 +224,10 @@
 				65E94FDA21DD08BA00D5A3D5 /* NSNumber+fk.m */,
 				65E94FDC21DD0A4E00D5A3D5 /* NSNumberTest.h */,
 				65E94FDD21DD0A4E00D5A3D5 /* NSNumberTest.m */,
+				65148E6321DD9F0100F5766D /* FKItem.h */,
+				65148E6421DD9F0100F5766D /* FKItem.m */,
+				65148E6621DDA08200F5766D /* FKItemTest.h */,
+				65148E6721DDA08200F5766D /* FKItemTest.m */,
 			);
 			path = "类别";
 			sourceTree = "<group>";
@@ -446,10 +464,12 @@
 				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
 				65E94FDE21DD0A4E00D5A3D5 /* NSNumberTest.m in Sources */,
 				65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */,
+				65148E6821DDA08200F5766D /* FKItemTest.m in Sources */,
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
 				65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
+				65148E6521DD9F0100F5766D /* FKItem.m in Sources */,
 				6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */,
 				6528A83921D763F600BF83E5 /* ClassB.m in Sources */,
 				65E94FD121DD019000D5A3D5 /* FKException.m in Sources */,
