@@ -16,6 +16,12 @@
 		65148E7D21DDB08900F5766D /* InformalProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E7C21DDB08900F5766D /* InformalProtocolTest.m */; };
 		65148E8A21DDB95A00F5766D /* FKPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E8921DDB95A00F5766D /* FKPrinter.m */; };
 		65148E8D21DDBED300F5766D /* FormalProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E8C21DDBED300F5766D /* FormalProtocolTest.m */; };
+		65148E9721DDF34600F5766D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E9621DDF34600F5766D /* AppDelegate.m */; };
+		65148E9A21DDF34600F5766D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E9921DDF34600F5766D /* ViewController.m */; };
+		65148E9C21DDF34900F5766D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65148E9B21DDF34900F5766D /* Assets.xcassets */; };
+		65148E9F21DDF34900F5766D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65148E9D21DDF34900F5766D /* Main.storyboard */; };
+		65148EA221DDF34900F5766D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148EA121DDF34900F5766D /* main.m */; };
+		65148EAB21DDF76B00F5766D /* FKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148EAA21DDF76B00F5766D /* FKAppDelegate.m */; };
 		6528A82521D752D800BF83E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82421D752D800BF83E5 /* main.m */; };
 		6528A82C21D7536800BF83E5 /* FKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82B21D7536800BF83E5 /* FKParent.m */; };
 		6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82E21D75AE600BF83E5 /* FKSub.m */; };
@@ -81,6 +87,18 @@
 		65148E8921DDB95A00F5766D /* FKPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPrinter.m; sourceTree = "<group>"; };
 		65148E8B21DDBED300F5766D /* FormalProtocolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormalProtocolTest.h; sourceTree = "<group>"; };
 		65148E8C21DDBED300F5766D /* FormalProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormalProtocolTest.m; sourceTree = "<group>"; };
+		65148E9321DDF34600F5766D /* OCDelegate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDelegate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65148E9521DDF34600F5766D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65148E9621DDF34600F5766D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65148E9821DDF34600F5766D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65148E9921DDF34600F5766D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65148E9B21DDF34900F5766D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65148E9E21DDF34900F5766D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65148EA021DDF34900F5766D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65148EA121DDF34900F5766D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65148EA321DDF34900F5766D /* OCDelegate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OCDelegate.entitlements; sourceTree = "<group>"; };
+		65148EA921DDF76B00F5766D /* FKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FKAppDelegate.h; path = OCDelegate/FKAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		65148EAA21DDF76B00F5766D /* FKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FKAppDelegate.m; path = OCDelegate/FKAppDelegate.m; sourceTree = SOURCE_ROOT; };
 		651BB99921D5DD5B006AFC0E /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		651BB99A21D5DD5B006AFC0E /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		651BB9A321D60CC5006AFC0E /* FractionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionTest.h; sourceTree = "<group>"; };
@@ -145,6 +163,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		65148E9021DDF34600F5766D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6528A81F21D752D800BF83E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -228,6 +253,32 @@
 			children = (
 			);
 			path = "委托";
+			sourceTree = "<group>";
+		};
+		65148E9421DDF34600F5766D /* OCDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				65148EA921DDF76B00F5766D /* FKAppDelegate.h */,
+				65148EAA21DDF76B00F5766D /* FKAppDelegate.m */,
+				65148EA121DDF34900F5766D /* main.m */,
+				65148EA821DDF6F900F5766D /* Supporting Files */,
+			);
+			path = OCDelegate;
+			sourceTree = "<group>";
+		};
+		65148EA821DDF6F900F5766D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65148E9521DDF34600F5766D /* AppDelegate.h */,
+				65148E9621DDF34600F5766D /* AppDelegate.m */,
+				65148E9821DDF34600F5766D /* ViewController.h */,
+				65148E9921DDF34600F5766D /* ViewController.m */,
+				65148E9B21DDF34900F5766D /* Assets.xcassets */,
+				65148E9D21DDF34900F5766D /* Main.storyboard */,
+				65148EA021DDF34900F5766D /* Info.plist */,
+				65148EA321DDF34900F5766D /* OCDelegate.entitlements */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		651BB99F21D6098C006AFC0E /* 方法 */ = {
@@ -330,6 +381,7 @@
 			isa = PBXGroup;
 			children = (
 				6528A82321D752D800BF83E5 /* Objective-C */,
+				65148E9421DDF34600F5766D /* OCDelegate */,
 				654B25A321D551D400C95C5F /* OCNetworkDemo */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
@@ -342,6 +394,7 @@
 			children = (
 				654B25A221D551D400C95C5F /* OCNetworkDemo.app */,
 				6528A82221D752D800BF83E5 /* Objective-C */,
+				65148E9321DDF34600F5766D /* OCDelegate.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -393,6 +446,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		65148E9221DDF34600F5766D /* OCDelegate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65148EA421DDF34900F5766D /* Build configuration list for PBXNativeTarget "OCDelegate" */;
+			buildPhases = (
+				65148E8F21DDF34600F5766D /* Sources */,
+				65148E9021DDF34600F5766D /* Frameworks */,
+				65148E9121DDF34600F5766D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCDelegate;
+			productName = OCDelegate;
+			productReference = 65148E9321DDF34600F5766D /* OCDelegate.app */;
+			productType = "com.apple.product-type.application";
+		};
 		6528A82121D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6528A82821D752D800BF83E5 /* Build configuration list for PBXNativeTarget "Objective-C" */;
@@ -439,6 +509,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Yi Zhang";
 				TargetAttributes = {
+					65148E9221DDF34600F5766D = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					6528A82121D752D800BF83E5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -462,11 +535,21 @@
 			targets = (
 				654B25A121D551D400C95C5F /* OCNetworkDemo */,
 				6528A82121D752D800BF83E5 /* Objective-C */,
+				65148E9221DDF34600F5766D /* OCDelegate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65148E9121DDF34600F5766D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65148E9C21DDF34900F5766D /* Assets.xcassets in Resources */,
+				65148E9F21DDF34900F5766D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		654B25A021D551D400C95C5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -527,6 +610,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		65148E8F21DDF34600F5766D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65148E9A21DDF34600F5766D /* ViewController.m in Sources */,
+				65148EA221DDF34900F5766D /* main.m in Sources */,
+				65148E9721DDF34600F5766D /* AppDelegate.m in Sources */,
+				65148EAB21DDF76B00F5766D /* FKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6528A81E21D752D800BF83E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -575,6 +669,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		65148E9D21DDF34900F5766D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65148E9E21DDF34900F5766D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		654B25AA21D551D400C95C5F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -594,6 +696,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		65148EA521DDF34900F5766D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OCDelegate/Supporting Files/OCDelegate.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "OCDelegate/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.OCDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		65148EA621DDF34900F5766D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "OCDelegate/Supporting Files/OCDelegate.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "OCDelegate/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.OCDelegate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		6528A82621D752D800BF83E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -775,6 +919,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		65148EA421DDF34900F5766D /* Build configuration list for PBXNativeTarget "OCDelegate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65148EA521DDF34900F5766D /* Debug */,
+				65148EA621DDF34900F5766D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		6528A82821D752D800BF83E5 /* Build configuration list for PBXNativeTarget "Objective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
