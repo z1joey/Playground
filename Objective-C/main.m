@@ -18,6 +18,8 @@
 #import "异常/FKThrowTest.h"
 #import "类别/FKItemTest.h"
 #import "扩展/FKCarTest.h"
+#import "协议/非正式/InformalProtocolTest.h"
+#import "协议/正式/FormalProtocolTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -32,7 +34,9 @@ int main(int argc, const char * argv[]) {
         //[FKThrowTest test];
         //[NSNumberTest test];
         //[FKItemTest test];
-        [FKCarTest test];
+        //[FKCarTest test];
+        //[InformalProtocolTest test];
+        [FormalProtocolTest test];
     }
     return 0;
 }

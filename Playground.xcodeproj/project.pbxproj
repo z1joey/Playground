@@ -12,6 +12,10 @@
 		65148E6821DDA08200F5766D /* FKItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6721DDA08200F5766D /* FKItemTest.m */; };
 		65148E6C21DDA59700F5766D /* FKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6B21DDA59700F5766D /* FKCar.m */; };
 		65148E7221DDA88200F5766D /* FKCarTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E7121DDA88200F5766D /* FKCarTest.m */; };
+		65148E7A21DDAEEA00F5766D /* PRApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E7921DDAEEA00F5766D /* PRApple.m */; };
+		65148E7D21DDB08900F5766D /* InformalProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E7C21DDB08900F5766D /* InformalProtocolTest.m */; };
+		65148E8A21DDB95A00F5766D /* FKPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E8921DDB95A00F5766D /* FKPrinter.m */; };
+		65148E8D21DDBED300F5766D /* FormalProtocolTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E8C21DDBED300F5766D /* FormalProtocolTest.m */; };
 		6528A82521D752D800BF83E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82421D752D800BF83E5 /* main.m */; };
 		6528A82C21D7536800BF83E5 /* FKParent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82B21D7536800BF83E5 /* FKParent.m */; };
 		6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A82E21D75AE600BF83E5 /* FKSub.m */; };
@@ -65,6 +69,18 @@
 		65148E6D21DDA67900F5766D /* FKCar+drive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FKCar+drive.h"; sourceTree = "<group>"; };
 		65148E7021DDA88200F5766D /* FKCarTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKCarTest.h; sourceTree = "<group>"; };
 		65148E7121DDA88200F5766D /* FKCarTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKCarTest.m; sourceTree = "<group>"; };
+		65148E7521DDAE8300F5766D /* NSObject+Eatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Eatable.h"; sourceTree = "<group>"; };
+		65148E7821DDAEEA00F5766D /* PRApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRApple.h; sourceTree = "<group>"; };
+		65148E7921DDAEEA00F5766D /* PRApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRApple.m; sourceTree = "<group>"; };
+		65148E7B21DDB08900F5766D /* InformalProtocolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformalProtocolTest.h; sourceTree = "<group>"; };
+		65148E7C21DDB08900F5766D /* InformalProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformalProtocolTest.m; sourceTree = "<group>"; };
+		65148E7F21DDB54900F5766D /* FKPrintable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKPrintable.h; sourceTree = "<group>"; };
+		65148E8221DDB5DC00F5766D /* FKOutput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKOutput.h; sourceTree = "<group>"; };
+		65148E8521DDB77F00F5766D /* FKProductable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKProductable.h; sourceTree = "<group>"; };
+		65148E8821DDB95A00F5766D /* FKPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKPrinter.h; sourceTree = "<group>"; };
+		65148E8921DDB95A00F5766D /* FKPrinter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPrinter.m; sourceTree = "<group>"; };
+		65148E8B21DDBED300F5766D /* FormalProtocolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FormalProtocolTest.h; sourceTree = "<group>"; };
+		65148E8C21DDBED300F5766D /* FormalProtocolTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FormalProtocolTest.m; sourceTree = "<group>"; };
 		651BB99921D5DD5B006AFC0E /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
 		651BB99A21D5DD5B006AFC0E /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 		651BB9A321D60CC5006AFC0E /* FractionTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FractionTest.h; sourceTree = "<group>"; };
@@ -172,6 +188,48 @@
 			path = "扩展";
 			sourceTree = "<group>";
 		};
+		65148E7321DDADC600F5766D /* 协议 */ = {
+			isa = PBXGroup;
+			children = (
+				65148E7E21DDB31400F5766D /* 正式 */,
+				65148E7421DDADD200F5766D /* 非正式 */,
+			);
+			path = "协议";
+			sourceTree = "<group>";
+		};
+		65148E7421DDADD200F5766D /* 非正式 */ = {
+			isa = PBXGroup;
+			children = (
+				65148E7521DDAE8300F5766D /* NSObject+Eatable.h */,
+				65148E7821DDAEEA00F5766D /* PRApple.h */,
+				65148E7921DDAEEA00F5766D /* PRApple.m */,
+				65148E7B21DDB08900F5766D /* InformalProtocolTest.h */,
+				65148E7C21DDB08900F5766D /* InformalProtocolTest.m */,
+			);
+			path = "非正式";
+			sourceTree = "<group>";
+		};
+		65148E7E21DDB31400F5766D /* 正式 */ = {
+			isa = PBXGroup;
+			children = (
+				65148E7F21DDB54900F5766D /* FKPrintable.h */,
+				65148E8221DDB5DC00F5766D /* FKOutput.h */,
+				65148E8521DDB77F00F5766D /* FKProductable.h */,
+				65148E8821DDB95A00F5766D /* FKPrinter.h */,
+				65148E8921DDB95A00F5766D /* FKPrinter.m */,
+				65148E8B21DDBED300F5766D /* FormalProtocolTest.h */,
+				65148E8C21DDBED300F5766D /* FormalProtocolTest.m */,
+			);
+			path = "正式";
+			sourceTree = "<group>";
+		};
+		65148E8E21DDD49F00F5766D /* 委托 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "委托";
+			sourceTree = "<group>";
+		};
 		651BB99F21D6098C006AFC0E /* 方法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +244,8 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				65148E8E21DDD49F00F5766D /* 委托 */,
+				65148E7321DDADC600F5766D /* 协议 */,
 				65148E6921DDA32D00F5766D /* 扩展 */,
 				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
 				6528A85121D7788500BF83E5 /* 判断 */,
@@ -472,14 +532,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
+				65148E7A21DDAEEA00F5766D /* PRApple.m in Sources */,
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
 				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
 				65E94FDE21DD0A4E00D5A3D5 /* NSNumberTest.m in Sources */,
 				65E94FD721DD02FD00D5A3D5 /* FKThrowTest.m in Sources */,
+				65148E8D21DDBED300F5766D /* FormalProtocolTest.m in Sources */,
 				65148E6821DDA08200F5766D /* FKItemTest.m in Sources */,
 				6528A83621D7638900BF83E5 /* ClassA.m in Sources */,
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
+				65148E7D21DDB08900F5766D /* InformalProtocolTest.m in Sources */,
 				65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */,
+				65148E8A21DDB95A00F5766D /* FKPrinter.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
 				65148E6521DD9F0100F5766D /* FKItem.m in Sources */,
 				6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */,
