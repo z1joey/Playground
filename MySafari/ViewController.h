@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #define View_Size self.view.frame.size
+#define NavigationBar_Size self.navigationController.navigationBar.frame.size
 
 @interface ViewController : UIViewController
 - (void)loadURL: (NSString *)urlStr;
