@@ -41,6 +41,19 @@
 		654B25AE21D551D500C95C5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AD21D551D500C95C5F /* Assets.xcassets */; };
 		654B25B121D551D500C95C5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654B25AF21D551D500C95C5F /* LaunchScreen.storyboard */; };
 		654B25B421D551D500C95C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 654B25B321D551D500C95C5F /* main.m */; };
+		65D0D9E221DF4421008893F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E121DF4421008893F3 /* AppDelegate.m */; };
+		65D0D9E521DF4421008893F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E421DF4421008893F3 /* ViewController.m */; };
+		65D0D9E821DF4421008893F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0D9E621DF4421008893F3 /* Main.storyboard */; };
+		65D0D9EA21DF4423008893F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D0D9E921DF4423008893F3 /* Assets.xcassets */; };
+		65D0D9ED21DF4423008893F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0D9EB21DF4423008893F3 /* LaunchScreen.storyboard */; };
+		65D0D9F021DF4423008893F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9EF21DF4423008893F3 /* main.m */; };
+		65D0D9F721DF4489008893F3 /* RegisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9F621DF4489008893F3 /* RegisViewController.m */; };
+		65D0DA0021DF541A008893F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9FF21DF541A008893F3 /* AppDelegate.m */; };
+		65D0DA0321DF541A008893F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0DA0221DF541A008893F3 /* ViewController.m */; };
+		65D0DA0621DF541A008893F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0DA0421DF541A008893F3 /* Main.storyboard */; };
+		65D0DA0821DF541B008893F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D0DA0721DF541B008893F3 /* Assets.xcassets */; };
+		65D0DA0B21DF541B008893F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0DA0921DF541B008893F3 /* LaunchScreen.storyboard */; };
+		65D0DA0E21DF541B008893F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0DA0D21DF541B008893F3 /* main.m */; };
 		65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCA21DCFE4700D5A3D5 /* FKApple.m */; };
 		65E94FCE21DCFEAA00D5A3D5 /* FKEatableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FCD21DCFEAA00D5A3D5 /* FKEatableTest.m */; };
 		65E94FD121DD019000D5A3D5 /* FKException.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E94FD021DD019000D5A3D5 /* FKException.m */; };
@@ -139,6 +152,28 @@
 		654B25B021D551D500C95C5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654B25B221D551D500C95C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		654B25B321D551D500C95C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65D0D9DE21DF4420008893F3 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0D9E021DF4421008893F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65D0D9E121DF4421008893F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65D0D9E321DF4421008893F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65D0D9E421DF4421008893F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65D0D9E721DF4421008893F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D0D9E921DF4423008893F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D0D9EC21DF4423008893F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D0D9EE21DF4423008893F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D0D9EF21DF4423008893F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65D0D9F521DF4489008893F3 /* RegisViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisViewController.h; sourceTree = "<group>"; };
+		65D0D9F621DF4489008893F3 /* RegisViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisViewController.m; sourceTree = "<group>"; };
+		65D0D9FC21DF541A008893F3 /* MySafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D0D9FE21DF541A008893F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65D0D9FF21DF541A008893F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65D0DA0121DF541A008893F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65D0DA0221DF541A008893F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65D0DA0521DF541A008893F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D0DA0721DF541B008893F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D0DA0A21DF541B008893F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D0DA0C21DF541B008893F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D0DA0D21DF541B008893F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65E94FC321DCFBA200D5A3D5 /* FKEatable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKEatable.h; sourceTree = "<group>"; };
 		65E94FC921DCFE4700D5A3D5 /* FKApple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKApple.h; sourceTree = "<group>"; };
 		65E94FCA21DCFE4700D5A3D5 /* FKApple.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKApple.m; sourceTree = "<group>"; };
@@ -182,6 +217,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6EBE6EC3946B63E16A96DF /* Pods_OCNetworkDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0D9DB21DF4420008893F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0D9F921DF541A008893F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,13 +297,6 @@
 			path = "正式";
 			sourceTree = "<group>";
 		};
-		65148E8E21DDD49F00F5766D /* 委托 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "委托";
-			sourceTree = "<group>";
-		};
 		65148E9421DDF34600F5766D /* OCDelegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,7 +337,6 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				65148E8E21DDD49F00F5766D /* 委托 */,
 				65148E7321DDADC600F5766D /* 协议 */,
 				65148E6921DDA32D00F5766D /* 扩展 */,
 				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
@@ -383,6 +424,8 @@
 				6528A82321D752D800BF83E5 /* Objective-C */,
 				65148E9421DDF34600F5766D /* OCDelegate */,
 				654B25A321D551D400C95C5F /* OCNetworkDemo */,
+				65D0D9DF21DF4421008893F3 /* Login */,
+				65D0D9FD21DF541A008893F3 /* MySafari */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
 				75FEF4C077DA058FA259D2FC /* Frameworks */,
@@ -395,6 +438,8 @@
 				654B25A221D551D400C95C5F /* OCNetworkDemo.app */,
 				6528A82221D752D800BF83E5 /* Objective-C */,
 				65148E9321DDF34600F5766D /* OCDelegate.app */,
+				65D0D9DE21DF4420008893F3 /* Login.app */,
+				65D0D9FC21DF541A008893F3 /* MySafari.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -413,6 +458,48 @@
 				654B25B321D551D500C95C5F /* main.m */,
 			);
 			path = OCNetworkDemo;
+			sourceTree = "<group>";
+		};
+		65D0D9DF21DF4421008893F3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				65D0D9E321DF4421008893F3 /* ViewController.h */,
+				65D0D9E421DF4421008893F3 /* ViewController.m */,
+				65D0D9F521DF4489008893F3 /* RegisViewController.h */,
+				65D0D9F621DF4489008893F3 /* RegisViewController.m */,
+				65D0D9E621DF4421008893F3 /* Main.storyboard */,
+				65D0D9F421DF4455008893F3 /* Supporting Files */,
+				65D0D9EE21DF4423008893F3 /* Info.plist */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		65D0D9F421DF4455008893F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D0D9E021DF4421008893F3 /* AppDelegate.h */,
+				65D0D9E121DF4421008893F3 /* AppDelegate.m */,
+				65D0D9E921DF4423008893F3 /* Assets.xcassets */,
+				65D0D9EB21DF4423008893F3 /* LaunchScreen.storyboard */,
+				65D0D9EF21DF4423008893F3 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D0D9FD21DF541A008893F3 /* MySafari */ = {
+			isa = PBXGroup;
+			children = (
+				65D0D9FE21DF541A008893F3 /* AppDelegate.h */,
+				65D0D9FF21DF541A008893F3 /* AppDelegate.m */,
+				65D0DA0121DF541A008893F3 /* ViewController.h */,
+				65D0DA0221DF541A008893F3 /* ViewController.m */,
+				65D0DA0421DF541A008893F3 /* Main.storyboard */,
+				65D0DA0721DF541B008893F3 /* Assets.xcassets */,
+				65D0DA0921DF541B008893F3 /* LaunchScreen.storyboard */,
+				65D0DA0C21DF541B008893F3 /* Info.plist */,
+				65D0DA0D21DF541B008893F3 /* main.m */,
+			);
+			path = MySafari;
 			sourceTree = "<group>";
 		};
 		65E94FBF21DCFAE100D5A3D5 /* 异常 */ = {
@@ -499,6 +586,40 @@
 			productReference = 654B25A221D551D400C95C5F /* OCNetworkDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		65D0D9DD21DF4420008893F3 /* Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D0D9F121DF4423008893F3 /* Build configuration list for PBXNativeTarget "Login" */;
+			buildPhases = (
+				65D0D9DA21DF4420008893F3 /* Sources */,
+				65D0D9DB21DF4420008893F3 /* Frameworks */,
+				65D0D9DC21DF4420008893F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Login;
+			productName = Login;
+			productReference = 65D0D9DE21DF4420008893F3 /* Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D0D9FB21DF541A008893F3 /* MySafari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D0DA0F21DF541B008893F3 /* Build configuration list for PBXNativeTarget "MySafari" */;
+			buildPhases = (
+				65D0D9F821DF541A008893F3 /* Sources */,
+				65D0D9F921DF541A008893F3 /* Frameworks */,
+				65D0D9FA21DF541A008893F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySafari;
+			productName = MySafari;
+			productReference = 65D0D9FC21DF541A008893F3 /* MySafari.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -516,6 +637,12 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					654B25A121D551D400C95C5F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65D0D9DD21DF4420008893F3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65D0D9FB21DF541A008893F3 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -536,6 +663,8 @@
 				654B25A121D551D400C95C5F /* OCNetworkDemo */,
 				6528A82121D752D800BF83E5 /* Objective-C */,
 				65148E9221DDF34600F5766D /* OCDelegate */,
+				65D0D9DD21DF4420008893F3 /* Login */,
+				65D0D9FB21DF541A008893F3 /* MySafari */,
 			);
 		};
 /* End PBXProject section */
@@ -557,6 +686,26 @@
 				654B25B121D551D500C95C5F /* LaunchScreen.storyboard in Resources */,
 				654B25AE21D551D500C95C5F /* Assets.xcassets in Resources */,
 				654B25AC21D551D400C95C5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0D9DC21DF4420008893F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D0D9ED21DF4423008893F3 /* LaunchScreen.storyboard in Resources */,
+				65D0D9EA21DF4423008893F3 /* Assets.xcassets in Resources */,
+				65D0D9E821DF4421008893F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0D9FA21DF541A008893F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D0DA0B21DF541B008893F3 /* LaunchScreen.storyboard in Resources */,
+				65D0DA0821DF541B008893F3 /* Assets.xcassets in Resources */,
+				65D0DA0621DF541A008893F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -666,6 +815,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65D0D9DA21DF4420008893F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D0D9E521DF4421008893F3 /* ViewController.m in Sources */,
+				65D0D9F721DF4489008893F3 /* RegisViewController.m in Sources */,
+				65D0D9F021DF4423008893F3 /* main.m in Sources */,
+				65D0D9E221DF4421008893F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D0D9F821DF541A008893F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D0DA0321DF541A008893F3 /* ViewController.m in Sources */,
+				65D0DA0E21DF541B008893F3 /* main.m in Sources */,
+				65D0DA0021DF541A008893F3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -689,6 +859,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				654B25B021D551D500C95C5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D0D9E621DF4421008893F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D0D9E721DF4421008893F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D0D9EB21DF4423008893F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D0D9EC21DF4423008893F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		65D0DA0421DF541A008893F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D0DA0521DF541A008893F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D0DA0921DF541B008893F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D0DA0A21DF541B008893F3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -916,6 +1118,74 @@
 			};
 			name = Release;
 		};
+		65D0D9F221DF4423008893F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = Login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.Login;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D0D9F321DF4423008893F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = Login/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.Login;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D0DA1021DF541B008893F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = MySafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.MySafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D0DA1121DF541B008893F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = MySafari/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.MySafari;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -951,6 +1221,24 @@
 			buildConfigurations = (
 				654B25B621D551D500C95C5F /* Debug */,
 				654B25B721D551D500C95C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D0D9F121DF4423008893F3 /* Build configuration list for PBXNativeTarget "Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D0D9F221DF4423008893F3 /* Debug */,
+				65D0D9F321DF4423008893F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D0DA0F21DF541B008893F3 /* Build configuration list for PBXNativeTarget "MySafari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D0DA1021DF541B008893F3 /* Debug */,
+				65D0DA1121DF541B008893F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
