@@ -489,17 +489,25 @@
 		65D0D9FD21DF541A008893F3 /* MySafari */ = {
 			isa = PBXGroup;
 			children = (
-				65D0D9FE21DF541A008893F3 /* AppDelegate.h */,
-				65D0D9FF21DF541A008893F3 /* AppDelegate.m */,
 				65D0DA0121DF541A008893F3 /* ViewController.h */,
 				65D0DA0221DF541A008893F3 /* ViewController.m */,
+				65D0DA1221DF544A008893F3 /* Supporting Files */,
+				65D0DA0C21DF541B008893F3 /* Info.plist */,
+			);
+			path = MySafari;
+			sourceTree = "<group>";
+		};
+		65D0DA1221DF544A008893F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D0D9FE21DF541A008893F3 /* AppDelegate.h */,
+				65D0D9FF21DF541A008893F3 /* AppDelegate.m */,
 				65D0DA0421DF541A008893F3 /* Main.storyboard */,
 				65D0DA0721DF541B008893F3 /* Assets.xcassets */,
 				65D0DA0921DF541B008893F3 /* LaunchScreen.storyboard */,
-				65D0DA0C21DF541B008893F3 /* Info.plist */,
 				65D0DA0D21DF541B008893F3 /* main.m */,
 			);
-			path = MySafari;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		65E94FBF21DCFAE100D5A3D5 /* 异常 */ = {
