@@ -20,6 +20,7 @@
 #import "扩展/FKCarTest.h"
 #import "协议/非正式/InformalProtocolTest.h"
 #import "协议/正式/FormalProtocolTest.h"
+#import "网络/NetworkTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -36,7 +37,9 @@ int main(int argc, const char * argv[]) {
         //[FKItemTest test];
         //[FKCarTest test];
         //[InformalProtocolTest test];
-        [FormalProtocolTest test];
+        //[FormalProtocolTest test];
+        //[NetworkTest syncTest];
+        [NetworkTest asyncTest];
     }
     return 0;
 }

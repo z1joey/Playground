@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5F6EBE6EC3946B63E16A96DF /* Pods_OCNetworkDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9613D4C53699D649191E03D /* Pods_OCNetworkDemo.framework */; };
+		6505DAEF21E128AF00E5616C /* NetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505DAEE21E128AF00E5616C /* NetworkTest.m */; };
+		6505DAF321E13B3C00E5616C /* MyRequestConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505DAF221E13B3C00E5616C /* MyRequestConnection.m */; };
+		6505DAF621E13D2400E5616C /* MyRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505DAF521E13D2400E5616C /* MyRequestManager.m */; };
 		65148E6521DD9F0100F5766D /* FKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6421DD9F0100F5766D /* FKItem.m */; };
 		65148E6821DDA08200F5766D /* FKItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6721DDA08200F5766D /* FKItemTest.m */; };
 		65148E6C21DDA59700F5766D /* FKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6B21DDA59700F5766D /* FKCar.m */; };
@@ -79,6 +82,12 @@
 		05E56D48058563454797E6F6 /* Pods-OCCalculatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		30C4DCC326E8F194E21A7536 /* Pods-SwiftNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		318B5C41C726F6F309092A5B /* Pods_OCCalculatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCCalculatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6505DAED21E128AF00E5616C /* NetworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTest.h; sourceTree = "<group>"; };
+		6505DAEE21E128AF00E5616C /* NetworkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTest.m; sourceTree = "<group>"; };
+		6505DAF121E13B3C00E5616C /* MyRequestConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRequestConnection.h; sourceTree = "<group>"; };
+		6505DAF221E13B3C00E5616C /* MyRequestConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRequestConnection.m; sourceTree = "<group>"; };
+		6505DAF421E13D2400E5616C /* MyRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyRequestManager.h; sourceTree = "<group>"; };
+		6505DAF521E13D2400E5616C /* MyRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyRequestManager.m; sourceTree = "<group>"; };
 		65148E6321DD9F0100F5766D /* FKItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItem.h; sourceTree = "<group>"; };
 		65148E6421DD9F0100F5766D /* FKItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKItem.m; sourceTree = "<group>"; };
 		65148E6621DDA08200F5766D /* FKItemTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItemTest.h; sourceTree = "<group>"; };
@@ -250,6 +259,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		6505DAEC21E1285100E5616C /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				6505DAED21E128AF00E5616C /* NetworkTest.h */,
+				6505DAEE21E128AF00E5616C /* NetworkTest.m */,
+			);
+			path = "网络";
+			sourceTree = "<group>";
+		};
+		6505DAF021E13B0600E5616C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				6505DAF121E13B3C00E5616C /* MyRequestConnection.h */,
+				6505DAF221E13B3C00E5616C /* MyRequestConnection.m */,
+				6505DAF421E13D2400E5616C /* MyRequestManager.h */,
+				6505DAF521E13D2400E5616C /* MyRequestManager.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		65148E6921DDA32D00F5766D /* 扩展 */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +366,7 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				6505DAEC21E1285100E5616C /* 网络 */,
 				65148E7321DDADC600F5766D /* 协议 */,
 				65148E6921DDA32D00F5766D /* 扩展 */,
 				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
@@ -447,6 +477,7 @@
 		654B25A321D551D400C95C5F /* OCNetworkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6505DAF021E13B0600E5616C /* Network */,
 				654B25A421D551D400C95C5F /* AppDelegate.h */,
 				654B25A521D551D400C95C5F /* AppDelegate.m */,
 				654B25A721D551D400C95C5F /* ViewController.h */,
@@ -783,6 +814,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
+				6505DAEF21E128AF00E5616C /* NetworkTest.m in Sources */,
 				65148E7A21DDAEEA00F5766D /* PRApple.m in Sources */,
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
 				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
@@ -820,6 +852,8 @@
 				654B25A921D551D400C95C5F /* ViewController.m in Sources */,
 				654B25B421D551D500C95C5F /* main.m in Sources */,
 				654B25A621D551D400C95C5F /* AppDelegate.m in Sources */,
+				6505DAF321E13B3C00E5616C /* MyRequestConnection.m in Sources */,
+				6505DAF621E13D2400E5616C /* MyRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
