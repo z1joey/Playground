@@ -37,6 +37,7 @@
 		65C9ACAD21E3239E00F1FB05 /* LRCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACAC21E3239E00F1FB05 /* LRCItem.m */; };
 		65C9ACB021E3244000F1FB05 /* LRCEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACAF21E3244000F1FB05 /* LRCEngine.m */; };
 		65C9ACB221E32F9E00F1FB05 /* 遥远的你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */; };
+		65C9ACB821E33CA400F1FB05 /* MyMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACB721E33CA400F1FB05 /* MyMusicPlayer.m */; };
 		65D0D9E221DF4421008893F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E121DF4421008893F3 /* AppDelegate.m */; };
 		65D0D9E521DF4421008893F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E421DF4421008893F3 /* ViewController.m */; };
 		65D0D9E821DF4421008893F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0D9E621DF4421008893F3 /* Main.storyboard */; };
@@ -141,6 +142,8 @@
 		65C9ACAE21E3244000F1FB05 /* LRCEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCEngine.h; sourceTree = "<group>"; };
 		65C9ACAF21E3244000F1FB05 /* LRCEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCEngine.m; sourceTree = "<group>"; };
 		65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "遥远的你.lrc"; sourceTree = "<group>"; };
+		65C9ACB621E33CA400F1FB05 /* MyMusicPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMusicPlayer.h; sourceTree = "<group>"; };
+		65C9ACB721E33CA400F1FB05 /* MyMusicPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMusicPlayer.m; sourceTree = "<group>"; };
 		65D0D9DE21DF4420008893F3 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0D9E021DF4421008893F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65D0D9E121DF4421008893F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -400,9 +403,9 @@
 		65C9AC9321E3231200F1FB05 /* MyPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */,
 				65C9ACAA21E3238300F1FB05 /* Models */,
 				65C9ACA921E3233300F1FB05 /* Controllers */,
+				65C9ACB521E33C4A00F1FB05 /* Resources */,
 				65C9ACA821E3232600F1FB05 /* Supporting Files */,
 			);
 			path = MyPlayer;
@@ -434,12 +437,38 @@
 		65C9ACAA21E3238300F1FB05 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				65C9ACB421E33C3000F1FB05 /* Player */,
+				65C9ACB321E33C1B00F1FB05 /* LRC */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65C9ACB321E33C1B00F1FB05 /* LRC */ = {
+			isa = PBXGroup;
+			children = (
 				65C9ACAB21E3239E00F1FB05 /* LRCItem.h */,
 				65C9ACAC21E3239E00F1FB05 /* LRCItem.m */,
 				65C9ACAE21E3244000F1FB05 /* LRCEngine.h */,
 				65C9ACAF21E3244000F1FB05 /* LRCEngine.m */,
 			);
-			path = Models;
+			path = LRC;
+			sourceTree = "<group>";
+		};
+		65C9ACB421E33C3000F1FB05 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				65C9ACB621E33CA400F1FB05 /* MyMusicPlayer.h */,
+				65C9ACB721E33CA400F1FB05 /* MyMusicPlayer.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		65C9ACB521E33C4A00F1FB05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		65D0D9DF21DF4421008893F3 /* Login */ = {
@@ -606,6 +635,11 @@
 					};
 					65C9AC9121E3231200F1FB05 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					65D0D9DD21DF4420008893F3 = {
 						CreatedOnToolsVersion = 10.1;
@@ -712,6 +746,7 @@
 			files = (
 				65C9ACAD21E3239E00F1FB05 /* LRCItem.m in Sources */,
 				65C9AC9921E3231200F1FB05 /* ViewController.m in Sources */,
+				65C9ACB821E33CA400F1FB05 /* MyMusicPlayer.m in Sources */,
 				65C9ACA421E3231400F1FB05 /* main.m in Sources */,
 				65C9ACB021E3244000F1FB05 /* LRCEngine.m in Sources */,
 				65C9AC9621E3231200F1FB05 /* AppDelegate.m in Sources */,
