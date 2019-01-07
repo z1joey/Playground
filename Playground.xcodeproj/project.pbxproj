@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6505DAEF21E128AF00E5616C /* NetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6505DAEE21E128AF00E5616C /* NetworkTest.m */; };
 		65148E6521DD9F0100F5766D /* FKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6421DD9F0100F5766D /* FKItem.m */; };
 		65148E6821DDA08200F5766D /* FKItemTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6721DDA08200F5766D /* FKItemTest.m */; };
 		65148E6C21DDA59700F5766D /* FKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 65148E6B21DDA59700F5766D /* FKCar.m */; };
@@ -29,6 +28,15 @@
 		6528A84A21D7713800BF83E5 /* FKSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84921D7713800BF83E5 /* FKSubclass.m */; };
 		6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84C21D771EF00BF83E5 /* FKPTest.m */; };
 		6528A85421D778A700BF83E5 /* CheckTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A85321D778A700BF83E5 /* CheckTest.m */; };
+		65C9AC9621E3231200F1FB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9AC9521E3231200F1FB05 /* AppDelegate.m */; };
+		65C9AC9921E3231200F1FB05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9AC9821E3231200F1FB05 /* ViewController.m */; };
+		65C9AC9C21E3231200F1FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C9AC9A21E3231200F1FB05 /* Main.storyboard */; };
+		65C9AC9E21E3231400F1FB05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C9AC9D21E3231400F1FB05 /* Assets.xcassets */; };
+		65C9ACA121E3231400F1FB05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C9AC9F21E3231400F1FB05 /* LaunchScreen.storyboard */; };
+		65C9ACA421E3231400F1FB05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACA321E3231400F1FB05 /* main.m */; };
+		65C9ACAD21E3239E00F1FB05 /* LRCItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACAC21E3239E00F1FB05 /* LRCItem.m */; };
+		65C9ACB021E3244000F1FB05 /* LRCEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9ACAF21E3244000F1FB05 /* LRCEngine.m */; };
+		65C9ACB221E32F9E00F1FB05 /* 遥远的你.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */; };
 		65D0D9E221DF4421008893F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E121DF4421008893F3 /* AppDelegate.m */; };
 		65D0D9E521DF4421008893F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65D0D9E421DF4421008893F3 /* ViewController.m */; };
 		65D0D9E821DF4421008893F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D0D9E621DF4421008893F3 /* Main.storyboard */; };
@@ -67,8 +75,6 @@
 		05E56D48058563454797E6F6 /* Pods-OCCalculatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCCalculatorDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OCCalculatorDemo/Pods-OCCalculatorDemo.release.xcconfig"; sourceTree = "<group>"; };
 		30C4DCC326E8F194E21A7536 /* Pods-SwiftNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftNetworkDemo/Pods-SwiftNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
 		318B5C41C726F6F309092A5B /* Pods_OCCalculatorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCCalculatorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6505DAED21E128AF00E5616C /* NetworkTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkTest.h; sourceTree = "<group>"; };
-		6505DAEE21E128AF00E5616C /* NetworkTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkTest.m; sourceTree = "<group>"; };
 		65148E6321DD9F0100F5766D /* FKItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItem.h; sourceTree = "<group>"; };
 		65148E6421DD9F0100F5766D /* FKItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKItem.m; sourceTree = "<group>"; };
 		65148E6621DDA08200F5766D /* FKItemTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FKItemTest.h; sourceTree = "<group>"; };
@@ -120,6 +126,21 @@
 		6528A84C21D771EF00BF83E5 /* FKPTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPTest.m; sourceTree = "<group>"; };
 		6528A85221D778A600BF83E5 /* CheckTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckTest.h; sourceTree = "<group>"; };
 		6528A85321D778A700BF83E5 /* CheckTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTest.m; sourceTree = "<group>"; };
+		65C9AC9221E3231200F1FB05 /* MyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C9AC9421E3231200F1FB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65C9AC9521E3231200F1FB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65C9AC9721E3231200F1FB05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65C9AC9821E3231200F1FB05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65C9AC9B21E3231200F1FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65C9AC9D21E3231400F1FB05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65C9ACA021E3231400F1FB05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65C9ACA221E3231400F1FB05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C9ACA321E3231400F1FB05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65C9ACAB21E3239E00F1FB05 /* LRCItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCItem.h; sourceTree = "<group>"; };
+		65C9ACAC21E3239E00F1FB05 /* LRCItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCItem.m; sourceTree = "<group>"; };
+		65C9ACAE21E3244000F1FB05 /* LRCEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRCEngine.h; sourceTree = "<group>"; };
+		65C9ACAF21E3244000F1FB05 /* LRCEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRCEngine.m; sourceTree = "<group>"; };
+		65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "遥远的你.lrc"; sourceTree = "<group>"; };
 		65D0D9DE21DF4420008893F3 /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D0D9E021DF4421008893F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65D0D9E121DF4421008893F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +194,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65C9AC8F21E3231200F1FB05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65D0D9DB21DF4420008893F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -203,21 +231,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		6505DAEC21E1285100E5616C /* 网络 */ = {
-			isa = PBXGroup;
-			children = (
-				6505DAED21E128AF00E5616C /* NetworkTest.h */,
-				6505DAEE21E128AF00E5616C /* NetworkTest.m */,
-			);
-			path = "网络";
-			sourceTree = "<group>";
-		};
 		65148E6921DDA32D00F5766D /* 扩展 */ = {
 			isa = PBXGroup;
 			children = (
-				65148E6D21DDA67900F5766D /* FKCar+drive.h */,
 				65148E6A21DDA59700F5766D /* FKCar.h */,
 				65148E6B21DDA59700F5766D /* FKCar.m */,
+				65148E6D21DDA67900F5766D /* FKCar+drive.h */,
 				65148E7021DDA88200F5766D /* FKCarTest.h */,
 				65148E7121DDA88200F5766D /* FKCarTest.m */,
 			);
@@ -273,7 +292,6 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				6505DAEC21E1285100E5616C /* 网络 */,
 				65148E7321DDADC600F5766D /* 协议 */,
 				65148E6921DDA32D00F5766D /* 扩展 */,
 				65E94FBF21DCFAE100D5A3D5 /* 异常 */,
@@ -361,6 +379,7 @@
 				6528A82321D752D800BF83E5 /* Objective-C */,
 				65D0D9DF21DF4421008893F3 /* Login */,
 				65D0D9FD21DF541A008893F3 /* MySafari */,
+				65C9AC9321E3231200F1FB05 /* MyPlayer */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
 				75FEF4C077DA058FA259D2FC /* Frameworks */,
@@ -373,8 +392,54 @@
 				6528A82221D752D800BF83E5 /* Objective-C */,
 				65D0D9DE21DF4420008893F3 /* Login.app */,
 				65D0D9FC21DF541A008893F3 /* MySafari.app */,
+				65C9AC9221E3231200F1FB05 /* MyPlayer.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65C9AC9321E3231200F1FB05 /* MyPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				65C9ACB121E32F9E00F1FB05 /* 遥远的你.lrc */,
+				65C9ACAA21E3238300F1FB05 /* Models */,
+				65C9ACA921E3233300F1FB05 /* Controllers */,
+				65C9ACA821E3232600F1FB05 /* Supporting Files */,
+			);
+			path = MyPlayer;
+			sourceTree = "<group>";
+		};
+		65C9ACA821E3232600F1FB05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65C9AC9421E3231200F1FB05 /* AppDelegate.h */,
+				65C9AC9521E3231200F1FB05 /* AppDelegate.m */,
+				65C9AC9A21E3231200F1FB05 /* Main.storyboard */,
+				65C9AC9D21E3231400F1FB05 /* Assets.xcassets */,
+				65C9AC9F21E3231400F1FB05 /* LaunchScreen.storyboard */,
+				65C9ACA221E3231400F1FB05 /* Info.plist */,
+				65C9ACA321E3231400F1FB05 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65C9ACA921E3233300F1FB05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65C9AC9721E3231200F1FB05 /* ViewController.h */,
+				65C9AC9821E3231200F1FB05 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		65C9ACAA21E3238300F1FB05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65C9ACAB21E3239E00F1FB05 /* LRCItem.h */,
+				65C9ACAC21E3239E00F1FB05 /* LRCItem.m */,
+				65C9ACAE21E3244000F1FB05 /* LRCEngine.h */,
+				65C9ACAF21E3244000F1FB05 /* LRCEngine.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		65D0D9DF21DF4421008893F3 /* Login */ = {
@@ -475,6 +540,23 @@
 			productReference = 6528A82221D752D800BF83E5 /* Objective-C */;
 			productType = "com.apple.product-type.tool";
 		};
+		65C9AC9121E3231200F1FB05 /* MyPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65C9ACA521E3231400F1FB05 /* Build configuration list for PBXNativeTarget "MyPlayer" */;
+			buildPhases = (
+				65C9AC8E21E3231200F1FB05 /* Sources */,
+				65C9AC8F21E3231200F1FB05 /* Frameworks */,
+				65C9AC9021E3231200F1FB05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyPlayer;
+			productName = MyPlayer;
+			productReference = 65C9AC9221E3231200F1FB05 /* MyPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65D0D9DD21DF4420008893F3 /* Login */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65D0D9F121DF4423008893F3 /* Build configuration list for PBXNativeTarget "Login" */;
@@ -522,6 +604,9 @@
 					6528A82121D752D800BF83E5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					65C9AC9121E3231200F1FB05 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					65D0D9DD21DF4420008893F3 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -546,11 +631,23 @@
 				6528A82121D752D800BF83E5 /* Objective-C */,
 				65D0D9DD21DF4420008893F3 /* Login */,
 				65D0D9FB21DF541A008893F3 /* MySafari */,
+				65C9AC9121E3231200F1FB05 /* MyPlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65C9AC9021E3231200F1FB05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9ACB221E32F9E00F1FB05 /* 遥远的你.lrc in Resources */,
+				65C9ACA121E3231400F1FB05 /* LaunchScreen.storyboard in Resources */,
+				65C9AC9E21E3231400F1FB05 /* Assets.xcassets in Resources */,
+				65C9AC9C21E3231200F1FB05 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65D0D9DC21DF4420008893F3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -579,7 +676,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6528A83221D75BB200BF83E5 /* FKTest.m in Sources */,
-				6505DAEF21E128AF00E5616C /* NetworkTest.m in Sources */,
 				65148E7A21DDAEEA00F5766D /* PRApple.m in Sources */,
 				6528A84321D76B1700BF83E5 /* NSStringTest.m in Sources */,
 				65E94FD421DD01C300D5A3D5 /* FKDog.m in Sources */,
@@ -610,6 +706,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65C9AC8E21E3231200F1FB05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C9ACAD21E3239E00F1FB05 /* LRCItem.m in Sources */,
+				65C9AC9921E3231200F1FB05 /* ViewController.m in Sources */,
+				65C9ACA421E3231400F1FB05 /* main.m in Sources */,
+				65C9ACB021E3244000F1FB05 /* LRCEngine.m in Sources */,
+				65C9AC9621E3231200F1FB05 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65D0D9DA21DF4420008893F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,6 +742,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		65C9AC9A21E3231200F1FB05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C9AC9B21E3231200F1FB05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65C9AC9F21E3231400F1FB05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65C9ACA021E3231400F1FB05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		65D0D9E621DF4421008893F3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -809,6 +933,40 @@
 			};
 			name = Release;
 		};
+		65C9ACA621E3231400F1FB05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "MyPlayer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.MyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65C9ACA721E3231400F1FB05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "MyPlayer/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.MyPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65D0D9F221DF4423008893F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -894,6 +1052,15 @@
 			buildConfigurations = (
 				654B255F21D547C700C95C5F /* Debug */,
 				654B256021D547C700C95C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65C9ACA521E3231400F1FB05 /* Build configuration list for PBXNativeTarget "MyPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C9ACA621E3231400F1FB05 /* Debug */,
+				65C9ACA721E3231400F1FB05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
