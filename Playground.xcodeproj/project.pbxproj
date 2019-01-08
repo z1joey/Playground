@@ -28,6 +28,13 @@
 		6528A84A21D7713800BF83E5 /* FKSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84921D7713800BF83E5 /* FKSubclass.m */; };
 		6528A84D21D771EF00BF83E5 /* FKPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A84C21D771EF00BF83E5 /* FKPTest.m */; };
 		6528A85421D778A700BF83E5 /* CheckTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528A85321D778A700BF83E5 /* CheckTest.m */; };
+		65ABC5B221E4444D003AC6A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B121E4444D003AC6A1 /* AppDelegate.m */; };
+		65ABC5B521E4444D003AC6A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B421E4444D003AC6A1 /* ViewController.m */; };
+		65ABC5B821E4444D003AC6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5B621E4444D003AC6A1 /* Main.storyboard */; };
+		65ABC5BA21E44451003AC6A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5B921E44451003AC6A1 /* Assets.xcassets */; };
+		65ABC5BD21E44451003AC6A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5BB21E44451003AC6A1 /* LaunchScreen.storyboard */; };
+		65ABC5C021E44451003AC6A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5BF21E44451003AC6A1 /* main.m */; };
+		65ABC5C921E444D8003AC6A1 /* NewPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5C821E444D8003AC6A1 /* NewPlist.plist */; };
 		65C9AC9621E3231200F1FB05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9AC9521E3231200F1FB05 /* AppDelegate.m */; };
 		65C9AC9921E3231200F1FB05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C9AC9821E3231200F1FB05 /* ViewController.m */; };
 		65C9AC9C21E3231200F1FB05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C9AC9A21E3231200F1FB05 /* Main.storyboard */; };
@@ -127,6 +134,17 @@
 		6528A84C21D771EF00BF83E5 /* FKPTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FKPTest.m; sourceTree = "<group>"; };
 		6528A85221D778A600BF83E5 /* CheckTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckTest.h; sourceTree = "<group>"; };
 		6528A85321D778A700BF83E5 /* CheckTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckTest.m; sourceTree = "<group>"; };
+		65ABC5AE21E4444D003AC6A1 /* PlistTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlistTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65ABC5B021E4444D003AC6A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65ABC5B121E4444D003AC6A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65ABC5B321E4444D003AC6A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		65ABC5B421E4444D003AC6A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		65ABC5B721E4444D003AC6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65ABC5B921E44451003AC6A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65ABC5BC21E44451003AC6A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65ABC5BE21E44451003AC6A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65ABC5BF21E44451003AC6A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65ABC5C821E444D8003AC6A1 /* NewPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = NewPlist.plist; sourceTree = "<group>"; };
 		65C9AC9221E3231200F1FB05 /* MyPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C9AC9421E3231200F1FB05 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65C9AC9521E3231200F1FB05 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -191,6 +209,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		6528A81F21D752D800BF83E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65ABC5AB21E4444D003AC6A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,6 +408,7 @@
 				65D0D9DF21DF4421008893F3 /* Login */,
 				65D0D9FD21DF541A008893F3 /* MySafari */,
 				65C9AC9321E3231200F1FB05 /* MyPlayer */,
+				65ABC5AF21E4444D003AC6A1 /* PlistTestOne */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
 				75FEF4C077DA058FA259D2FC /* Frameworks */,
@@ -396,8 +422,50 @@
 				65D0D9DE21DF4420008893F3 /* Login.app */,
 				65D0D9FC21DF541A008893F3 /* MySafari.app */,
 				65C9AC9221E3231200F1FB05 /* MyPlayer.app */,
+				65ABC5AE21E4444D003AC6A1 /* PlistTestOne.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65ABC5AF21E4444D003AC6A1 /* PlistTestOne */ = {
+			isa = PBXGroup;
+			children = (
+				65ABC5C721E444AE003AC6A1 /* Controllers */,
+				65ABC5C621E444A5003AC6A1 /* Resources */,
+				65ABC5C521E44480003AC6A1 /* Supporting Files */,
+			);
+			path = PlistTestOne;
+			sourceTree = "<group>";
+		};
+		65ABC5C521E44480003AC6A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65ABC5B021E4444D003AC6A1 /* AppDelegate.h */,
+				65ABC5B121E4444D003AC6A1 /* AppDelegate.m */,
+				65ABC5B621E4444D003AC6A1 /* Main.storyboard */,
+				65ABC5B921E44451003AC6A1 /* Assets.xcassets */,
+				65ABC5BB21E44451003AC6A1 /* LaunchScreen.storyboard */,
+				65ABC5BE21E44451003AC6A1 /* Info.plist */,
+				65ABC5BF21E44451003AC6A1 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65ABC5C621E444A5003AC6A1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65ABC5C821E444D8003AC6A1 /* NewPlist.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		65ABC5C721E444AE003AC6A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				65ABC5B321E4444D003AC6A1 /* ViewController.h */,
+				65ABC5B421E4444D003AC6A1 /* ViewController.m */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		65C9AC9321E3231200F1FB05 /* MyPlayer */ = {
@@ -569,6 +637,23 @@
 			productReference = 6528A82221D752D800BF83E5 /* Objective-C */;
 			productType = "com.apple.product-type.tool";
 		};
+		65ABC5AD21E4444D003AC6A1 /* PlistTestOne */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65ABC5C321E44451003AC6A1 /* Build configuration list for PBXNativeTarget "PlistTestOne" */;
+			buildPhases = (
+				65ABC5AA21E4444D003AC6A1 /* Sources */,
+				65ABC5AB21E4444D003AC6A1 /* Frameworks */,
+				65ABC5AC21E4444D003AC6A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlistTestOne;
+			productName = PlistTestOne;
+			productReference = 65ABC5AE21E4444D003AC6A1 /* PlistTestOne.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65C9AC9121E3231200F1FB05 /* MyPlayer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65C9ACA521E3231400F1FB05 /* Build configuration list for PBXNativeTarget "MyPlayer" */;
@@ -633,6 +718,9 @@
 					6528A82121D752D800BF83E5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					65ABC5AD21E4444D003AC6A1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					65C9AC9121E3231200F1FB05 = {
 						CreatedOnToolsVersion = 10.1;
 						SystemCapabilities = {
@@ -666,11 +754,23 @@
 				65D0D9DD21DF4420008893F3 /* Login */,
 				65D0D9FB21DF541A008893F3 /* MySafari */,
 				65C9AC9121E3231200F1FB05 /* MyPlayer */,
+				65ABC5AD21E4444D003AC6A1 /* PlistTestOne */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		65ABC5AC21E4444D003AC6A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ABC5BD21E44451003AC6A1 /* LaunchScreen.storyboard in Resources */,
+				65ABC5BA21E44451003AC6A1 /* Assets.xcassets in Resources */,
+				65ABC5C921E444D8003AC6A1 /* NewPlist.plist in Resources */,
+				65ABC5B821E4444D003AC6A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65C9AC9021E3231200F1FB05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -740,6 +840,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		65ABC5AA21E4444D003AC6A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65ABC5B521E4444D003AC6A1 /* ViewController.m in Sources */,
+				65ABC5C021E44451003AC6A1 /* main.m in Sources */,
+				65ABC5B221E4444D003AC6A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65C9AC8E21E3231200F1FB05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -777,6 +887,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		65ABC5B621E4444D003AC6A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65ABC5B721E4444D003AC6A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65ABC5BB21E44451003AC6A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65ABC5BC21E44451003AC6A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		65C9AC9A21E3231200F1FB05 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -968,6 +1094,40 @@
 			};
 			name = Release;
 		};
+		65ABC5C121E44451003AC6A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "PlistTestOne/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.PlistTestOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65ABC5C221E44451003AC6A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = "PlistTestOne/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.PlistTestOne;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65C9ACA621E3231400F1FB05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1087,6 +1247,15 @@
 			buildConfigurations = (
 				654B255F21D547C700C95C5F /* Debug */,
 				654B256021D547C700C95C5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65ABC5C321E44451003AC6A1 /* Build configuration list for PBXNativeTarget "PlistTestOne" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65ABC5C121E44451003AC6A1 /* Debug */,
+				65ABC5C221E44451003AC6A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
