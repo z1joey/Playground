@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>ArchiverTestOne.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
 		<key>EmojiArt.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +68,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>10</integer>
+		</dict>
+		<key>SQLiteTest.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
 		</dict>
 		<key>SwiftNetworkDemo.xcscheme_^#shared#^_</key>
 		<dict>
