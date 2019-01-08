@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>9</integer>
 		</dict>
+		<key>PlistTestTwo.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>SwiftNetworkDemo.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
