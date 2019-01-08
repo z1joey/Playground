@@ -21,6 +21,7 @@
 #import "协议/非正式/InformalProtocolTest.h"
 #import "协议/正式/FormalProtocolTest.h"
 #import "网络/NetworkTest.h"
+#import "闭包/BlockTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -39,7 +40,10 @@ int main(int argc, const char * argv[]) {
         //[InformalProtocolTest test];
         //[FormalProtocolTest test];
         //[NetworkTest syncTest];
-        [NetworkTest asyncTest];
+        //[NetworkTest asyncTest];
+        BlockTest *test;
+        test = [[BlockTest alloc] init];
+        [test showResult];
     }
     return 0;
 }
