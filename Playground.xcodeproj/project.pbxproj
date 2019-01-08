@@ -47,6 +47,12 @@
 		6581D4EB21E4A32300E77557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6581D4EA21E4A32300E77557 /* Assets.xcassets */; };
 		6581D4EE21E4A32300E77557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6581D4EC21E4A32300E77557 /* LaunchScreen.storyboard */; };
 		6581D4F121E4A32300E77557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6581D4F021E4A32300E77557 /* main.m */; };
+		6581D4FF21E4A8EA00E77557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6581D4FE21E4A8EA00E77557 /* AppDelegate.m */; };
+		6581D50221E4A8EA00E77557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6581D50121E4A8EA00E77557 /* ViewController.m */; };
+		6581D50521E4A8EA00E77557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6581D50321E4A8EA00E77557 /* Main.storyboard */; };
+		6581D50721E4A8EB00E77557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6581D50621E4A8EB00E77557 /* Assets.xcassets */; };
+		6581D50A21E4A8EB00E77557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6581D50821E4A8EB00E77557 /* LaunchScreen.storyboard */; };
+		6581D50D21E4A8EB00E77557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6581D50C21E4A8EB00E77557 /* main.m */; };
 		65ABC5B221E4444D003AC6A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B121E4444D003AC6A1 /* AppDelegate.m */; };
 		65ABC5B521E4444D003AC6A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B421E4444D003AC6A1 /* ViewController.m */; };
 		65ABC5B821E4444D003AC6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5B621E4444D003AC6A1 /* Main.storyboard */; };
@@ -205,6 +211,16 @@
 		6581D4ED21E4A32300E77557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6581D4EF21E4A32300E77557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6581D4F021E4A32300E77557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6581D4FB21E4A8EA00E77557 /* NSInvocationOperationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSInvocationOperationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6581D4FD21E4A8EA00E77557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6581D4FE21E4A8EA00E77557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6581D50021E4A8EA00E77557 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6581D50121E4A8EA00E77557 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6581D50421E4A8EA00E77557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6581D50621E4A8EB00E77557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6581D50921E4A8EB00E77557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6581D50B21E4A8EB00E77557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6581D50C21E4A8EB00E77557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		65ABC5AE21E4444D003AC6A1 /* PlistTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlistTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ABC5B021E4444D003AC6A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65ABC5B121E4444D003AC6A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -334,6 +350,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6581D4DC21E4A32200E77557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6581D4F821E4A8EA00E77557 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -563,6 +586,7 @@
 				6581D4A321E48D8700E77557 /* RequestCacheTest */,
 				6581D4C421E49F8D00E77557 /* NSNotificationTest */,
 				6581D4E021E4A32200E77557 /* NSThreadTest */,
+				6581D4FC21E4A8EA00E77557 /* NSInvocationOperationTest */,
 				654B255021D547C500C95C5F /* Products */,
 				1CCA778D633F0A9EB6A7CAF8 /* Pods */,
 				75FEF4C077DA058FA259D2FC /* Frameworks */,
@@ -583,6 +607,7 @@
 				6581D4A221E48D8700E77557 /* RequestCacheTest.app */,
 				6581D4C321E49F8D00E77557 /* NSNotificationTest.app */,
 				6581D4DF21E4A32200E77557 /* NSThreadTest.app */,
+				6581D4FB21E4A8EA00E77557 /* NSInvocationOperationTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -688,6 +713,38 @@
 			children = (
 				6581D4E421E4A32200E77557 /* ViewController.h */,
 				6581D4E521E4A32200E77557 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6581D4FC21E4A8EA00E77557 /* NSInvocationOperationTest */ = {
+			isa = PBXGroup;
+			children = (
+				6581D51221E4A90200E77557 /* Controllers */,
+				6581D51121E4A8F500E77557 /* Supporting Files */,
+			);
+			path = NSInvocationOperationTest;
+			sourceTree = "<group>";
+		};
+		6581D51121E4A8F500E77557 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6581D4FD21E4A8EA00E77557 /* AppDelegate.h */,
+				6581D4FE21E4A8EA00E77557 /* AppDelegate.m */,
+				6581D50321E4A8EA00E77557 /* Main.storyboard */,
+				6581D50621E4A8EB00E77557 /* Assets.xcassets */,
+				6581D50821E4A8EB00E77557 /* LaunchScreen.storyboard */,
+				6581D50B21E4A8EB00E77557 /* Info.plist */,
+				6581D50C21E4A8EB00E77557 /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6581D51221E4A90200E77557 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6581D50021E4A8EA00E77557 /* ViewController.h */,
+				6581D50121E4A8EA00E77557 /* ViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -1060,6 +1117,23 @@
 			productReference = 6581D4DF21E4A32200E77557 /* NSThreadTest.app */;
 			productType = "com.apple.product-type.application";
 		};
+		6581D4FA21E4A8EA00E77557 /* NSInvocationOperationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6581D50E21E4A8EB00E77557 /* Build configuration list for PBXNativeTarget "NSInvocationOperationTest" */;
+			buildPhases = (
+				6581D4F721E4A8EA00E77557 /* Sources */,
+				6581D4F821E4A8EA00E77557 /* Frameworks */,
+				6581D4F921E4A8EA00E77557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSInvocationOperationTest;
+			productName = NSInvocationOperationTest;
+			productReference = 6581D4FB21E4A8EA00E77557 /* NSInvocationOperationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		65ABC5AD21E4444D003AC6A1 /* PlistTestOne */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 65ABC5C321E44451003AC6A1 /* Build configuration list for PBXNativeTarget "PlistTestOne" */;
@@ -1201,6 +1275,9 @@
 					6581D4DE21E4A32200E77557 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					6581D4FA21E4A8EA00E77557 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					65ABC5AD21E4444D003AC6A1 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -1253,6 +1330,7 @@
 				6581D4A121E48D8700E77557 /* RequestCacheTest */,
 				6581D4C221E49F8D00E77557 /* NSNotificationTest */,
 				6581D4DE21E4A32200E77557 /* NSThreadTest */,
+				6581D4FA21E4A8EA00E77557 /* NSInvocationOperationTest */,
 			);
 		};
 /* End PBXProject section */
@@ -1285,6 +1363,16 @@
 				6581D4EE21E4A32300E77557 /* LaunchScreen.storyboard in Resources */,
 				6581D4EB21E4A32300E77557 /* Assets.xcassets in Resources */,
 				6581D4E921E4A32200E77557 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6581D4F921E4A8EA00E77557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6581D50A21E4A8EB00E77557 /* LaunchScreen.storyboard in Resources */,
+				6581D50721E4A8EB00E77557 /* Assets.xcassets in Resources */,
+				6581D50521E4A8EA00E77557 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1429,6 +1517,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6581D4F721E4A8EA00E77557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6581D50221E4A8EA00E77557 /* ViewController.m in Sources */,
+				6581D50D21E4A8EB00E77557 /* main.m in Sources */,
+				6581D4FF21E4A8EA00E77557 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65ABC5AA21E4444D003AC6A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1551,6 +1649,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				6581D4ED21E4A32300E77557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6581D50321E4A8EA00E77557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6581D50421E4A8EA00E77557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6581D50821E4A8EB00E77557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6581D50921E4A8EB00E77557 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1912,6 +2026,40 @@
 			};
 			name = Release;
 		};
+		6581D50F21E4A8EB00E77557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = NSInvocationOperationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.NSInvocationOperationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6581D51021E4A8EB00E77557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8Y7626TS68;
+				INFOPLIST_FILE = NSInvocationOperationTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yi.NSInvocationOperationTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		65ABC5C121E44451003AC6A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2194,6 +2342,15 @@
 			buildConfigurations = (
 				6581D4F321E4A32300E77557 /* Debug */,
 				6581D4F421E4A32300E77557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6581D50E21E4A8EB00E77557 /* Build configuration list for PBXNativeTarget "NSInvocationOperationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6581D50F21E4A8EB00E77557 /* Debug */,
+				6581D51021E4A8EB00E77557 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
