@@ -71,6 +71,8 @@
 		6596C9B321E5C8A5006B4E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6596C9B221E5C8A5006B4E98 /* Assets.xcassets */; };
 		6596C9B621E5C8A5006B4E98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6596C9B421E5C8A5006B4E98 /* LaunchScreen.storyboard */; };
 		6596C9B921E5C8A5006B4E98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6596C9B821E5C8A5006B4E98 /* main.m */; };
+		6596C9C021E5CF65006B4E98 /* Notes.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6596C9BF21E5CF65006B4E98 /* Notes.strings */; };
+		6596C9C421E5D4C9006B4E98 /* GCDTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6596C9C321E5D4C9006B4E98 /* GCDTest.m */; };
 		65ABC5B221E4444D003AC6A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B121E4444D003AC6A1 /* AppDelegate.m */; };
 		65ABC5B521E4444D003AC6A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65ABC5B421E4444D003AC6A1 /* ViewController.m */; };
 		65ABC5B821E4444D003AC6A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65ABC5B621E4444D003AC6A1 /* Main.storyboard */; };
@@ -269,6 +271,9 @@
 		6596C9B521E5C8A5006B4E98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6596C9B721E5C8A5006B4E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6596C9B821E5C8A5006B4E98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6596C9BF21E5CF65006B4E98 /* Notes.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Notes.strings; sourceTree = "<group>"; };
+		6596C9C221E5D4C9006B4E98 /* GCDTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTest.h; sourceTree = "<group>"; };
+		6596C9C321E5D4C9006B4E98 /* GCDTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTest.m; sourceTree = "<group>"; };
 		65ABC5AE21E4444D003AC6A1 /* PlistTestOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlistTestOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65ABC5B021E4444D003AC6A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65ABC5B121E4444D003AC6A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -559,6 +564,7 @@
 		6528A82321D752D800BF83E5 /* Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				6596C9C121E5D47F006B4E98 /* 线程 */,
 				6581D4BA21E4919200E77557 /* 闭包 */,
 				65148E7321DDADC600F5766D /* 协议 */,
 				65148E6921DDA32D00F5766D /* 扩展 */,
@@ -918,6 +924,16 @@
 				6596C9AD21E5C8A4006B4E98 /* ViewController.m */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6596C9C121E5D47F006B4E98 /* 线程 */ = {
+			isa = PBXGroup;
+			children = (
+				6596C9BF21E5CF65006B4E98 /* Notes.strings */,
+				6596C9C221E5D4C9006B4E98 /* GCDTest.h */,
+				6596C9C321E5D4C9006B4E98 /* GCDTest.m */,
+			);
+			path = "线程";
 			sourceTree = "<group>";
 		};
 		65ABC5AF21E4444D003AC6A1 /* PlistTestOne */ = {
@@ -1636,6 +1652,7 @@
 			files = (
 				6596C9B621E5C8A5006B4E98 /* LaunchScreen.storyboard in Resources */,
 				6596C9B321E5C8A5006B4E98 /* Assets.xcassets in Resources */,
+				6596C9C021E5CF65006B4E98 /* Notes.strings in Resources */,
 				6596C9B121E5C8A4006B4E98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1731,6 +1748,7 @@
 				6528A84021D76A0900BF83E5 /* NSStringUtilities.m in Sources */,
 				65148E7D21DDB08900F5766D /* InformalProtocolTest.m in Sources */,
 				65E94FCB21DCFE4700D5A3D5 /* FKApple.m in Sources */,
+				6596C9C421E5D4C9006B4E98 /* GCDTest.m in Sources */,
 				65148E8A21DDB95A00F5766D /* FKPrinter.m in Sources */,
 				6528A82F21D75AE600BF83E5 /* FKSub.m in Sources */,
 				65148E6521DD9F0100F5766D /* FKItem.m in Sources */,

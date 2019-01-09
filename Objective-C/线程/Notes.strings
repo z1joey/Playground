@@ -1,0 +1,24 @@
+/* 
+  Notes.strings
+  Playground
+
+  Created by Yi Zhang on 9/1/19.
+  Copyright © 2019 Yi Zhang. All rights reserved.
+*/
+
+
+队列->
+并行队列(Concurrent Dispatch Queue)：多个任务同时执行; 只在异步执行(dispatch_async)有效。
+串行队列(Serial Dispatch Queue)：任务一个接一个执行; 默认为串行。
+主队列(dispatch_get_main_queue): 串行队列，任务会在主线程执行。
+全局队列(dispatch_get_global_queue): 需设置优先级。
+
+任务->
+同步执行: 不开启新线程
+异步执行: 开启新线程
+
+搭配->
+* 同步 + 串行;
+* 异步 + 并行;
+同步 + 并行;
+异步 + 串行;

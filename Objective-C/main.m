@@ -22,6 +22,7 @@
 #import "协议/正式/FormalProtocolTest.h"
 #import "网络/NetworkTest.h"
 #import "闭包/BlockTest.h"
+#import "线程/GCDTest.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -41,9 +42,15 @@ int main(int argc, const char * argv[]) {
         //[FormalProtocolTest test];
         //[NetworkTest syncTest];
         //[NetworkTest asyncTest];
-        BlockTest *test;
-        test = [[BlockTest alloc] init];
-        [test showResult];
+        //BlockTest *test;
+        //test = [[BlockTest alloc] init];
+        //[test showResult];
+        //[GCDTest concurrentSyncTest1];
+        //[GCDTest concurrentSyncTest2];
+        //[GCDTest serialAsyncTest1];
+        //[GCDTest serialAsyncTest2];
+        //[GCDTest serialSyncTest1];
+        //[GCDTest serialSyncTest2];
     }
     return 0;
 }
