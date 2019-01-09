@@ -17,7 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // 创建匿名线程来执行selector中的方法
+    // 创建匿名线程来执行selector中的方法，异步
     [NSThread detachNewThreadSelector:@selector(newThread) toTarget:self withObject:nil];
     // 和下面的线程同时执行
     for (int i=0; i<10; i++) {

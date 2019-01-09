@@ -14,10 +14,22 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSInvocationOperation *operation = [[NSInvocationOperation alloc] initWithTarget:self selector:@selector(task) object:nil];
+    // 同步执行，task执行完后才执行for循环
+    [operation start];
+    for (int i=0; i<10; i++) {
+        NSLog(@"%@:%d", [NSThread currentThread], i);
+    }
 }
 
+- (void)task
+{
+    for (int i=0; i<10; i++) {
+        NSLog(@"%@:%d", [NSThread currentThread], i);
+    }
+}
 
 @end
