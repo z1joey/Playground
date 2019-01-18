@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="dxG-b2-x3g" customClass="NormalToolBar" customModule="IBDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Normal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lw5-Ug-JDr">
+                    <rect key="frame" x="16" y="40" width="56" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Lw5-Ug-JDr" firstAttribute="centerY" secondItem="dxG-b2-x3g" secondAttribute="centerY" id="8al-gR-80Z"/>
+                <constraint firstItem="Lw5-Ug-JDr" firstAttribute="top" secondItem="gfH-do-l1M" secondAttribute="top" constant="40" id="Kb1-8Y-OfX"/>
+                <constraint firstItem="Lw5-Ug-JDr" firstAttribute="leading" secondItem="dxG-b2-x3g" secondAttribute="leadingMargin" id="lsF-Pb-gdm"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="gfH-do-l1M"/>
+            <point key="canvasLocation" x="284" y="-360"/>
+        </view>
+        <view contentMode="scaleToFill" id="kZB-aS-RxA" customClass="EditToolBar" customModule="IBDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VI7-ta-JTS">
+                    <rect key="frame" x="16" y="40" width="30" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VI7-ta-JTS" firstAttribute="top" secondItem="mzG-Dy-Bc3" secondAttribute="top" constant="40" id="3bF-u9-5RF"/>
+                <constraint firstItem="VI7-ta-JTS" firstAttribute="leading" secondItem="kZB-aS-RxA" secondAttribute="leadingMargin" id="XTi-6M-gsX"/>
+                <constraint firstItem="VI7-ta-JTS" firstAttribute="centerY" secondItem="kZB-aS-RxA" secondAttribute="centerY" id="z52-GT-OoE"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="mzG-Dy-Bc3"/>
+            <point key="canvasLocation" x="284" y="-198"/>
+        </view>
+    </objects>
+</document>
